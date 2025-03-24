@@ -34,7 +34,7 @@ const FutureOutLook = () => {
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-extrabold font-[Poppins,sans-serif]">
               <span className="text-white">FUTURE</span>
               <br />
-              <span className="text-violet-400">OUTLOOK</span>
+              <span className="text-[#71416b]">OUTLOOK</span>
             </h1>
             <div>
               <p

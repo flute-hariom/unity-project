@@ -12,7 +12,7 @@ const Footer = () => {
             {/* 1st block */}
             <div className="col-span-12 lg:col-span-4">
               <div className="box-border border-b-4 border-violet-600 p-8 bg-gray-800 text-white text-center rounded-lg xl:w-80 mx-auto">
-                <h3 className="font-bold text-2xl bg-gradient-to-r from-violet-300 via-violet-500 to-violet-700 bg-clip-text text-transparent mb-4">
+                <h3 className="font-bold text-2xl bg-gradient-to-r from-[#4c164d] via-purple-500 to-[#71416B] bg-clip-text text-transparent mb-4">
                   Maysta Technologies
                 </h3>
                 <div className="text-md font-medium text-white">
@@ -26,7 +26,7 @@ const Footer = () => {
 
             {/* 2nd block */}
             <div className="col-span-6 md:col-span-6 lg:col-span-1 ml-7 mx-auto">
-              <h6 className="bg-gradient-to-r from-violet-300 via-violet-500 to-violet-700 bg-clip-text text-transparent font-bold text-xl mb-4">
+              <h6 className="bg-gradient-to-r from-[#4c164d] via-purple-500 to-[#71416B] bg-clip-text text-transparent font-bold text-xl mb-4">
                 LINKS
               </h6>
               <ul className="text-md">
@@ -59,7 +59,7 @@ const Footer = () => {
 
             {/* 3rd block */}
             <div className="col-span-6 md:col-span-6 lg:col-span-4 mx-auto">
-              <h6 className="bg-gradient-to-r from-violet-300 via-violet-500 to-violet-700 bg-clip-text text-transparent font-bold text-xl mb-4">
+              <h6 className="bg-gradient-to-r from-[#4c164d] via-purple-500 to-[#71416B] bg-clip-text text-transparent font-bold text-xl mb-4">
                 OUR SERVICES
               </h6>
               <ul className="text-md">
@@ -100,11 +100,11 @@ const Footer = () => {
 
             {/* 4th block */}
             <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-blue-900">
-              <div className="text-xl bg-gradient-to-r from-violet-300 via-violet-500 to-violet-700 bg-clip-text text-transparent font-bold">
+              <div className="text-xl bg-gradient-to-r from-[#4c164d] via-purple-500 to-[#71416B] bg-clip-text text-transparent font-bold">
                 Social Media Links.
               </div>
 
-              <div className="text-md bg-gradient-to-r from-violet-300 via-violet-500 to-violet-700 bg-clip-text text-transparent font-bold text-xl">
+              <div className="text-md bg-gradient-to-r from-[#4c164d] via-purple-500 to-[#71416B] bg-clip-text text-transparent font-bold text-xl">
                 Follow us on social media.
               </div>
               <div className="mx-auto text-center mt-2">

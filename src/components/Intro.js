@@ -32,7 +32,7 @@ const Intro = () => {
           >
             <h1 className="text-5xl lg:text-9xl font-extrabold font-[Poppins,sans-serif]">
               <span className="text-white">ABOUT</span>
-              <span className="text-violet-400"> US</span>
+              <span className="text-[#71416b]"> US</span>
             </h1>
             <div>
               <p className="my-3 text-lg lg:text-xl font-semibold tracking-tight mb-5 bg-gradient-to-r from-gray-400 via-gray-200 to-gray-400 bg-clip-text text-transparent">
@@ -55,12 +55,15 @@ const Intro = () => {
                 improve efficiency.
               </p>
             </div>
-            <Link
-              // to="/contact"
+            {/* <Link
+             
               to="/about-us"
               className="relative text-gray-500 font-mono bg-white inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group border border-violet-500 transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-violet-500 hover:via-white hover:to-violet-700 bg-clip-text hover:text-transparent hover:shadow-lg hover:shadow-violet-500/50"
+            > */}
+            <div 
+              className="relative text-gray-500 font-mono bg-white inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group border border-violet-500 transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-violet-500 hover:via-white hover:to-violet-700 bg-clip-text hover:text-transparent hover:shadow-lg hover:shadow-violet-500/50"
             >
-              Contact us
+              See More
               <svg
                 className="w-4 h-4 ml-1 transition-transform duration-300 transform group-hover:translate-x-2"
                 xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +76,8 @@ const Intro = () => {
                   clipRule="evenodd"
                 ></path>
               </svg>
-            </Link>
+              </div>
+            {/* </Link> */}
           </div>
         </div>
       </div>

@@ -26,7 +26,7 @@ const TechIntegration = () => {
             <h1 className="text-5xl md:text-6xl lg:text-9xl font-extrabold font-[Poppins,sans-serif]">
               <span className="text-white">TECHNOLOGY</span>
               <br />
-              <span className="text-violet-400">INTEGRATION</span>
+              <span className="text-[#71416b]">INTEGRATION</span>
             </h1>
             <div>
               <p className="my-3 text-lg lg:text-xl font-semibold tracking-tight mb-5 bg-gradient-to-r from-gray-400 via-gray-200 to-gray-400 bg-clip-text text-transparent">

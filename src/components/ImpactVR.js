@@ -21,7 +21,7 @@ const ImpactVR = () => {
         >
           <h1 className="text-5xl md:text-7xl lg:text-9xl font-extrabold font-[Poppins,sans-serif]">
             <span className="text-white">IMPACT OF</span>{" "}
-            <span className="text-violet-400">VR</span>
+            <span className="text-[#71416b]">VR</span>
           </h1>
           <p className="my-4 text-base md:text-lg lg:text-xl font-semibold tracking-tight bg-gradient-to-r from-gray-400 via-gray-200 to-gray-400 bg-clip-text text-transparent text-left">
             Founded on the belief that VR has the power to revolutionize how

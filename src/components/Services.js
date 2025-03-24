@@ -1,74 +1,3 @@
-// import React from "react";
-// import img from "../images/ram5.jpg";
-// import img2 from "../images/ram6.jpg";
-// import img3 from "../images/ram1.jpg";
-// import img4 from "../images/ram2.jpg";
-// import logoImage from "../images/logo.png";
-// import mobileImg from "../images/Mobile.png"
-
-// const Services = () => {
-//   return (
-//     <div id="services" className="services bg-gray-100 py-12">
-//       {/* Main div container */}
-//       <div data-aos="" className=" mt-10 flex justify-between">
-//         {/* Left div */}
-//         <div className="lg:ml-10 my-4 flex flex-col justify-center ">
-//           <div>
-//             <h2 className="text-center font-extrabold text-6xl pb-20 bg-gradient-to-r from-violet-300 to-violet-600 bg-clip-text text-transparent uppercase">
-//               services
-//             </h2>
-
-//           </div>
-//           <div className="flex justify-center">
-//             <img
-//               alt="card img"
-//               className="rounded-t"
-//               src={mobileImg}
-//             />
-//           </div>
-//         </div>
-//         {/* Right div */}
-//         <div className="px-12 w-2/3 my-4 flex flex-col justify-center" data-aos="fade-down" data-aos-delay="600">
-//           <div className="flex flex-row justify-start items-center gap-x-5 py-2">
-//             <img
-//               alt="card img"
-//               className="rounded-t w-16 h-16"
-//               src={logoImage}
-//             />
-//             <h1 className={`font-extrabold text-4xl text-white `}>
-//               Golden Arc Labs
-//             </h1>
-//           </div>
-//           {/* Grid Section */}
-//           <div className="w-4/5 self-center grid grid-cols-1 sm:grid-cols-2 gap-6 sm:p-6 h-full">
-//             {[img, img2, img3, img4].map((image, index) => (
-//               <div key={index} className="bg-gray-800 text-white hover:text-black hover:bg-white rounded-lg shadow-2xl p-6 group flex flex-col h-full">
-//                 <div className="w-full">
-//                   <img alt="card img" className="rounded-t w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105" src={image} />
-//                 </div>
-//                 <h2 className="font-semibold my-4 text-2xl text-center flex-grow">
-//                   {index === 0 && "VR Content Creation"}
-//                   {index === 1 && "Virtual Commerce Solutions"}
-//                   {index === 2 && "Interactive Simulations"}
-//                   {index === 3 && "Immersive Brand Experiences"}
-//                 </h2>
-//                 <p className="text-md font-medium text-center">
-//                   {index === 0 && "Crafting immersive storytelling and interactive experiences."}
-//                   {index === 1 && "Establishing virtual storefronts and conducting immersive virtual events."}
-//                   {index === 2 && "Developing training programs and educational simulations."}
-//                   {index === 3 && "Creating customized VR experiences to enhance consumer engagement."}
-//                 </p>
-//               </div>
-//             ))}
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Services;
-
 import React from "react";
 import img from "../images/ram5.jpg";
 import img2 from "../images/ram6.jpg";
@@ -78,18 +7,12 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
-
-
 const Services = () => {
-
-
-  
   return (
     <div id="services" className="services bg-gray-100 py-12">
       <section data-aos="zoom-in-down">
         <div className="my-4 py-4">
-          <h2 className="my-2 text-center text-5xl bg-gradient-to-r from-violet-300 via-violet-500 to-violet-600 bg-clip-text text-transparent mb-4 uppercase font-bold">
+          <h2 className="my-2 text-center text-5xl bg-gradient-to-r from-violet-300 via-violet-500 to-violet-600 bg-clip-text text-transparent mb-4 uppercase font-bold text-[#71416b]">
             services
           </h2>
 
@@ -176,14 +99,48 @@ const Services = () => {
                 <img
                   alt="card img"
                   className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                  src={img4}
+                  src="http://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?t=st=1742831668~exp=1742835268~hmac=f907f02f9adf4e811ae6da41c63fb278ad75bd18450825e0f7f317fb7f230314&w=826"
                 />
                 <h2 className="font-semibold my-8 text-2xl text-center ">
-                  Immersive Brand Experiences
+                  Web Development:
                 </h2>
                 <p className="text-md font-medium">
-                  Creating customized VR experiences to enhance consumer
-                  engagement.
+                  Crafting innovative and responsive web solutions tailored to
+                  your business needs, ensuring a seamless online presence.
+                </p>
+              </div>
+            </div>
+            <div className="bg-gray-800 transition-all ease-in-out duration-400  overflow-hidden text-white hover:text-black hover:bg-white  rounded-lg shadow-2xl p-3 group">
+              <div className="m-2 text-justify text-sm">
+                <img
+                  alt="card img"
+                  className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
+                  src="https://img.freepik.com/free-vector/hand-drawn-flat-design-devops-illustration_23-2149367259.jpg?ga=GA1.1.19345922.1740563966&semt=ais_hybrid"
+                />
+                <h2 className="font-semibold my-8 text-2xl text-center ">
+                  DevOps Managed Services:
+                </h2>
+                <p className="text-md font-medium">
+                  Implementing cutting-edge DevOps practices to enhance
+                  collaboration, automate workflows, and accelerate your
+                  software development and deployment cycles.
+                </p>
+              </div>
+            </div>
+            <div className="bg-gray-800 transition-all ease-in-out duration-400  overflow-hidden text-white hover:text-black hover:bg-white  rounded-lg shadow-2xl p-3 group">
+              <div className="m-2 text-justify text-sm">
+                <img
+                  alt="card img"
+                  className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
+                  src="https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169863.jpg?ga=GA1.1.19345922.1740563966&semt=ais_hybrid"
+                />
+                <h2 className="font-semibold my-8 text-2xl text-center ">
+                  Mobile App Solutions:
+                </h2>
+                <p className="text-md font-medium">
+                  Empowering your business with bespoke mobile applications,
+                  designed for optimal user experience and compatibility across
+                  various platforms.
                 </p>
               </div>
             </div>
@@ -210,9 +167,10 @@ const Services = () => {
                   <path d="M12 7.462c-2.502 0-4.538 2.036-4.538 4.538S9.498 16.538 12 16.538s4.538-2.036 4.538-4.538S14.502 7.462 12 7.462zm0 7.076c-1.399 0-2.538-1.139-2.538-2.538S10.601 9.462 12 9.462s2.538 1.139 2.538 2.538-1.139 2.538-2.538 2.538z"></path>
                 </svg>
               </div>
-              <h3 className="text-3xl bg-gradient-to-r from-violet-300 via-violet-500 to-violet-600 bg-clip-text text-transparent font-bold">
+              <h3 className="text-3xl bg-gradient-to-r from-[#4c164d] via-purple-500 to-purple-700 bg-clip-text text-transparent font-bold">
                 We <span className="font-black">Build</span>
               </h3>
+
               <div>
                 <p
                   className="my-3 text-xl font-semibold tracking-tight mb-5
@@ -239,7 +197,7 @@ const Services = () => {
                   <path d="m7.375 16.781 1.25-1.562L4.601 12l4.024-3.219-1.25-1.562-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562-1.25 1.562L19.399 12l-4.024 3.219 1.25 1.562 5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003-4 18-1.953-.434 4-18z"></path>
                 </svg>
               </div>
-              <h3 className="text-3xl bg-gradient-to-r from-violet-300 via-violet-500 to-violet-600 bg-clip-text text-transparent font-bold">
+              <h3 className="text-3xl bg-gradient-to-r from-[#4c164d] via-purple-500 to-purple-700 bg-clip-text text-transparent font-bold">
                 We <span className="font-black">Collaborate</span>
               </h3>
               <div>

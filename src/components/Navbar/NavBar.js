@@ -31,9 +31,9 @@ const NavBar = () => {
               <img
                 alt="card img"
                 className="rounded-t w-16 h-16"
-                src={logoImage}
+                src="/Maysta-logo.png"
               />
-              <h1 className={`font-extrabold text-4xl text-white `}>
+              <h1 className={`font-extrabold text-4xl text-[#ff7246] `}>
                 Maysta Technologies
               </h1>
             </div>
