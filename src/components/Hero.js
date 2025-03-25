@@ -5,7 +5,7 @@ import { FaSearch } from "react-icons/fa";
 const Hero = () => {
   return (
     <>
-      <div className="hero overflow-hidden h-[calc(100vh)]" id="hero">
+      <div className="hero overflow-hidden h-[calc(80vh)]" id="hero">
         {/* <NavBar /> */}
 
         {/* Background Video */}
