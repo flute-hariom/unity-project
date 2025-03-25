@@ -17,9 +17,8 @@ const Footer = () => {
                 </h3>
                 <div className="text-md font-medium text-white">
                   <h5></h5>
-                  <p>Eldeco Amantran,Sector 119</p>
-                  <p>Noida, Uttar Pradesh</p>
-                  <p>India</p>
+                  <p>Realistic Apporach, innovative Solutions</p>
+                  
                 </div>
               </div>
             </div>
