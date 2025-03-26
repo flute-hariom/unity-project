@@ -19,10 +19,10 @@ const Cta = () => {
             <Link
               to="/contact"
               className="text-white font-mono bg-white inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg 
-             shadow-xl rounded-2xl sm:w-auto sm:mb-0 group border border-white hover:border-violet-500
-             transition-all duration-300 ease-in-out 
-             hover:bg-gradient-to-r hover:from-violet-200 hover:via-violet-300 hover:to-violet-400
-             bg-clip-text hover:text-transparent hover:shadow-lg hover:shadow-violet-500/50"
+  shadow-xl rounded-2xl sm:w-auto sm:mb-0 group border border-white hover:border-orange-500
+  transition-all duration-300 ease-in-out 
+  hover:bg-gradient-to-r hover:from-orange-200 hover:via-orange-300 hover:to-orange-400
+  bg-clip-text hover:text-transparent hover:shadow-lg hover:shadow-orange-500/50"
             >
               Send a message
               <svg

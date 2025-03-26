@@ -19,9 +19,9 @@ const Home = () => {
       <Hero />
       <Intro />
       <Services />
-      <TechIntegration />
-      <ImpactVR />
-      <FutureOutLook />
+      {/* <TechIntegration /> */}
+      {/* <ImpactVR /> */}
+      {/* <FutureOutLook /> */}
       {/* <Portfolio /> */}
       {/* <Clients /> */}
       <Cta />

@@ -41,12 +41,12 @@ const Contact = () => {
         className="contact flex justify-center items-center mt-8 w-full bg-white py-12 lg:py-24 "
       >
         <div
-          className="container mx-auto my-8 px-4 lg:px-20"
+          className="container mx-auto my-8 px-4 lg:px-20 "
           data-aos="zoom-in"
         >
           <form onSubmit={sendEmail}>
-            <div className="w-full bg-[#ffffff20] p-8 my-4 md:px-12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
-              <h1 className="font-bold text-center lg:text-left uppercase text-4xl bg-gradient-to-r from-violet-300 via-violet-400 to-violet-600 bg-clip-text text-transparent mb-4">
+            <div className="w-full bg-gray-800 p-8 my-4 md:px-12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
+              <h1 className="font-bold text-center lg:text-left uppercase text-4xl text-orange-500 mb-4">
                 We’d Love to Hear from You
               </h1>
               <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
@@ -95,7 +95,11 @@ const Contact = () => {
               <div className="my-2 w-full sm:w-1/2 lg:w-2/4">
                 <button
                   type="submit"
-                  className="uppercase text-white font-mono bg-white inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group border border-violet-600 transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-violet-200 hover:via-violet-300 hover:to-violet-400 bg-clip-text hover:text-transparent hover:shadow-lg hover:shadow-violet-500/50"
+                  className="uppercase text-white font-mono bg-white inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg 
+  shadow-xl rounded-2xl sm:w-auto sm:mb-0 group border border-orange-600 
+  transition-all duration-300 ease-in-out 
+  hover:bg-gradient-to-r hover:from-orange-200 hover:via-orange-300 hover:to-orange-400 
+  bg-clip-text hover:text-transparent hover:shadow-lg hover:shadow-orange-500/50"
                 >
                   Send Message
                 </button>

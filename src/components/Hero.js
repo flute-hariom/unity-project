@@ -33,10 +33,10 @@ const Hero = () => {
             >
               <h1 className="text-5xl flex flex-col lg:text-8xl font-extrabold font-[Poppins,sans-serif] text-white w-full bg-black bg-opacity-30 backdrop-blur-md p-4 ">
                 <span className="px-12">Maysta</span>
-                <span className="text-[#71416b] px-12"> Technologies</span>
+                <span className="text-[#ff7246] px-12"> Technologies</span>
               </h1>
 
-              <p className="text-lg sm:text-3xl text-[#b6aba7] font-bold mt-4 px-16">
+              <p className="text-lg sm:text-3xl text-gray-300 font-bold mt-4 px-16">
                 Let's continue to Innovate and Excel Together
               </p>
             </div>

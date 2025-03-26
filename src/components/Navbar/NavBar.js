@@ -20,8 +20,8 @@ const NavBar = () => {
 
   return (
     <nav
-      className={`fixed bg-black px-6 top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${
-        !top && "bg-black shadow-lg"
+      className={`fixed bg-white px-6 top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${
+        !top && "bg-white shadow-lg"
       }`}
     >
       <div className="flex flex-row justify-around md:justify-between items-center py-2">
@@ -30,10 +30,10 @@ const NavBar = () => {
             <div className="flex flex-row justify-center items-center gap-x-5 py-2">
               <img
                 alt="card img"
-                className="rounded-t w-16 h-16"
+                className="rounded-t w-18 h-16"
                 src="/Maysta-logo.png"
               />
-              <h1 className={`font-extrabold text-4xl text-[#ff7246] `}>
+              <h1 className={`font-extrabold text-4xl text-gray-800 `}>
                 Maysta Technologies
               </h1>
             </div>
@@ -69,7 +69,7 @@ const NavBar = () => {
           </div>
 
           <div
-            className={`fixed transition-transform duration-300 ease-in-out transit flex justify-center left-0 w-full h-auto rounded-md p-8 bg-black lg:hidden shadow-xl top-24 ${
+            className={`fixed transition-transform duration-300 ease-in-out transit flex justify-center left-0 w-full h-auto rounded-md p-8  lg:hidden shadow-xl top-24 ${
               isOpen ? "block" : "hidden"
             } `}
           >

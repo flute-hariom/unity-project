@@ -1,25 +1,20 @@
 import React, { useState } from "react";
 import { HashLink } from "react-router-hash-link";
 
-
-
-
-
-
 const NavLink = ({ to, activeLink, setActiveLink, children, onClick }) => {
   const isActive = activeLink === to;
 
   return (
     <HashLink
       className={`px-4 font-extrabold text-gray-500 font-mono border 
-                  transition-all duration-300 ease-in-out rounded-2xl py-2
-                  hover:bg-gradient-to-r hover:from-purple-700 hover:via-white hover:to-violet-800 
-                  bg-clip-text hover:text-transparent hover:shadow-lg hover:shadow-purple-500/50
-                  ${
-                    isActive
-                      ? "border-gray-800 bg-purple-200 text-red-500"
-                      : "border-transparent"
-                  }`}
+              transition-all duration-300 ease-in-out rounded-2xl py-2
+              hover:bg-gradient-to-r hover:from-orange-700  hover:to-orange-800 
+              bg-clip-text hover:text-transparent hover:shadow-lg hover:shadow-orange-500/50
+              ${
+                isActive
+                  ? "border-gray-800 bg-orange-200 text-red-500"
+                  : "border-transparent"
+              }`}
       smooth
       to={to}
       onClick={() => {

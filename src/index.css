@@ -8,7 +8,7 @@ body {
   margin: 0;
   /* background: radial-gradient(circle, #2d1a00 10%, #110d02 40%, #000000 80%); */
   /* background: radial-gradient(circle, #0f172a 10%, #1e293b 40%, #000000 80%); */
-  background: radial-gradient(circle, #000000 10%, #0f172a 40%, #1e293b 80%);
+  /* background: radial-gradient(circle, #000000 10%, #0f172a 40%, #1e293b 80%); */
   font-family: "Lato", sans-serif;
   color: white;
   /* Ensures text is visible on the dark background */
@@ -18,7 +18,7 @@ body {
   /* background: url(./images/hero-bg.svg) top center no-repeat; */
   /* background: radial-gradient(circle, #2d1a00 10%, #110d02 40%, #000000 80%); */
   /* background: radial-gradient(circle, #0f172a 10%, #1e293b 40%, #000000 80%); */
-  background: radial-gradient(circle, #000000 10%, #0f172a 40%, #1e293b 80%);
+  /* background: radial-gradient(circle, #000000 10%, #0f172a 40%, #1e293b 80%); */
   /* background: radial-gradient(circle, #3a1d00 5%, #1a0e00 25%, #000000 70%); */
 
   /* background-size: cover; */
@@ -30,8 +30,8 @@ body {
 
 .about {
   /* background: radial-gradient(circle, #000000 10%, #0f172a 40%, #1e293b 80%); */
-  background: rgb(148, 71, 71);
-  background: linear-gradient(342deg, rgb(62 38 38 / 99%) 10%, rgb(4 2 2) 98%);
+  /* background: rgb(148, 71, 71); */
+  /* background: linear-gradient(342deg, rgb(62 38 38 / 99%) 10%, rgb(4 2 2) 98%); */
 
   /* background: radial-gradient(circle, #1a0d00 15%, #0e0600 40%, #000000 80%); */
   /* background-size: cover; */
@@ -40,31 +40,31 @@ body {
 .services {
   /* background: radial-gradient(circle, #000000 10%, #0f172a 40%, #1e293b 80%); */
   /* background: radial-gradient(circle, #1a0d00 15%, #0e0600 40%, #000000 80%); */
-  background: linear-gradient(342deg, rgb(62 38 38 / 99%) 10%, rgb(4 2 2) 98%);
+  /* background: linear-gradient(342deg, rgb(62 38 38 / 99%) 10%, rgb(4 2 2) 98%); */
 
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 .impactVR {
   /* background: radial-gradient(circle, #000000 10%, #0f172a 40%, #1e293b 80%); */
   /* background: radial-gradient(circle, #1a0d00 15%, #0e0600 40%, #000000 80%); */
-  background: linear-gradient(342deg, rgb(62 38 38 / 99%) 10%, rgb(4 2 2) 98%);
+  /* background: linear-gradient(342deg, rgb(62 38 38 / 99%) 10%, rgb(4 2 2) 98%); */
 
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 .footer {
   /* background: url(./images/footer.svg) top center no-repeat; */
   /* background: radial-gradient(circle, #1a0d00 15%, #0e0600 40%, #000000 80%); */
-  background: linear-gradient(342deg, rgb(62 38 38 / 99%) 10%, rgb(4 2 2) 98%);
+  /* background: linear-gradient(342deg, rgb(62 38 38 / 99%) 10%, rgb(4 2 2) 98%);
 
-  background-size: cover;
+  background-size: cover; */
 }
 
 .contact {
   /* background: url(./images/footer.svg) top center no-repeat; */
   /* background: radial-gradient(circle, #000000 10%, #0f172a 40%, #1e293b 80%); */
-  background: linear-gradient(342deg, rgb(62 38 38 / 99%) 10%, rgb(4 2 2) 98%);
+  /* background: linear-gradient(342deg, rgb(62 38 38 / 99%) 10%, rgb(4 2 2) 98%); */
 
   /* background: radial-gradient(circle, #1a0d00 15%, #0e0600 40%, #000000 80%); */
 
