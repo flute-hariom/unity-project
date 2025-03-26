@@ -7,11 +7,11 @@ const Cta = () => {
         <div className="w-full flex flex-col lg:flex-row lg:justify-around">
           <div className="mb-4">
             <p className="text-2xl md:text-4xl font-bold mb-4">
-              Are you ready to scale your business?
+              Looking to take your business to the next level ?
             </p>
             <p className="text-lg md:text-2xl">
-              Get in touch and let us build something amazing{" "}
-              <span className="font-black">together!</span>
+              Let’s collaborate and create something extraordinary{" "}
+              <span className="font-black">!</span>
             </p>
           </div>
 

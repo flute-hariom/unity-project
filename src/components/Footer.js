@@ -63,15 +63,7 @@ const Footer = () => {
                     to="#"
                     className="hover:text-orange-400 transition duration-250 ease-in-out"
                   >
-                    Web Development
-                  </Link>
-                </li>
-                <li className="mb-2">
-                  <Link
-                    to="#"
-                    className="hover:text-orange-400 transition duration-250 ease-in-out"
-                  >
-                    DevOps Services
+                    VR Content Creation
                   </Link>
                 </li>
                 <li className="mb-2">
@@ -87,7 +79,31 @@ const Footer = () => {
                     to="#"
                     className="hover:text-orange-400 transition duration-250 ease-in-out"
                   >
+                    Web Development
+                  </Link>
+                </li>
+                <li className="mb-2">
+                  <Link
+                    to="#"
+                    className="hover:text-orange-400 transition duration-250 ease-in-out"
+                  >
                     Mobile App Solutions
+                  </Link>
+                </li>
+                <li className="mb-2">
+                  <Link
+                    to="#"
+                    className="hover:text-orange-400 transition duration-250 ease-in-out"
+                  >
+                    Interactive Simulations
+                  </Link>
+                </li>
+                <li className="mb-2">
+                  <Link
+                    to="#"
+                    className="hover:text-orange-400 transition duration-250 ease-in-out"
+                  >
+                    DevOps Services
                   </Link>
                 </li>
                 <li className="mb-2">

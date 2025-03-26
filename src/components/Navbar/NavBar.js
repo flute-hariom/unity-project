@@ -25,16 +25,16 @@ const NavBar = () => {
       }`}
     >
       <div className="flex flex-row justify-around md:justify-between items-center py-2">
-        <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
+        <div className="flex flex-row justify-center md:mx-6 items-center text-center font-semibold">
           <HashLink smooth to="/#hero">
-            <div className="flex flex-row justify-center items-center gap-x-5 py-2">
+            <div className="flex flex-row justify-center items-center gap-x-10 py-2">
               <img
                 alt="card img"
-                className="rounded-t w-18 h-16"
+                className="rounded-t w-20 h-18"
                 src="/Maysta-logo.png"
               />
               <h1 className={`font-extrabold text-4xl text-gray-800 `}>
-                Maysta Technologies
+                Maysta
               </h1>
             </div>
           </HashLink>

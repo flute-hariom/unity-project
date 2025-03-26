@@ -12,7 +12,7 @@ const Intro = () => {
         {/* Child div */}
         <div
           className="flex flex-col lg:flex-row justify-between lg:text-left"
-          data-aos="fade-up"
+          // data-aos="fade-up"
         >
           {/* Left div */}
           {/* <div className="lg:w-1/3 flex flex-col lg:mx-4 justify-center">
@@ -27,14 +27,14 @@ const Intro = () => {
 
           <div
             className="flex-col my-4 lg:my-0 lg:justify-end w-full lg:w-2/3 lg:pl-24 pr-4"
-            data-aos="zoom-in"
-            data-aos-delay="500"
+            // data-aos="zoom-in"
+            // data-aos-delay="500"
           >
             <h1 className="text-3xl lg:text-9xl font-extrabold font-[Poppins,sans-serif]">
               <span className="text-gray-800">ABOUT</span>
               <span className="text-[#ff7246]"> US</span>
             </h1>
-            <div>
+            <div data-aos="zoom-in" data-aos-delay="200">
               <p className="my-3 text-lg lg:text-xl font-semibold tracking-tight mb-5 text-gray-600">
                 At Maysta, we started at the crossroads of technology and
                 vision. Our team, with over 40 years of combined experience, is
@@ -48,7 +48,7 @@ const Intro = () => {
               </p>
             </div>
 
-            <div>
+            <div data-aos="zoom-in" data-aos-delay="200">
               <p className="my-3 text-lg lg:text-xl font-semibold tracking-tight mb-5 text-gray-600">
                 We take responsibility for building custom software solutions
                 that cater to the automation of your business processes and
@@ -78,7 +78,11 @@ const Intro = () => {
             {/* </Link> */}
           </div>
           {/* Right div */}
-          <div className="lg:w-1/3 flex flex-col lg:mx-4 justify-center">
+          <div
+            className="lg:w-1/3 flex flex-col lg:mx-4 justify-center"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
             <img
               alt="card img"
               className="rounded-t float-right duration-1000 w-auto h-auto 
