@@ -4,6 +4,8 @@ import img from "../images/ram5.jpg";
 import img2 from "../images/ram6.jpg";
 import img3 from "../images/ram1.jpg";
 import img4 from "../images/ram2.jpg";
+import PillerData from "./PillerData";
+import CoreValues from "./CoreValues";
 
 const Services = () => {
   const scrollRef = useRef(null);
@@ -117,6 +119,9 @@ const Services = () => {
             <FaChevronRight size={24} />
           </button>
         </div>
+
+        <PillerData />
+        <CoreValues/>
       </section>
     </div>
   );

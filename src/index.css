@@ -76,3 +76,8 @@ body {
     url(https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)
       fixed center center;
 }
+/* .bg-image {
+  background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?t=st=1743072411~exp=1743076011~hmac=c36cc56e86d8cbe0c9eb962d7b94bc77f6bd790e50b81a3961af874108deedcb&w=1380)
+      fixed center center;
+} */

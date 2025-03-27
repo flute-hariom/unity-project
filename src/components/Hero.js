@@ -17,7 +17,8 @@ const Hero = () => {
             muted
             playsInline
           >
-            <source src="/mystaVideo.mp4" type="video/mp4" />
+            <source src="/mystaFullVideo.mp4" type="video/mp4" />
+            {/* <source src="/mystaVide2.mp4" type="video/mp4" /> */}
             Your browser does not support the video tag.
           </video>
         </div>
