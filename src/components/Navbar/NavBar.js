@@ -39,7 +39,7 @@ const NavBar = () => {
                 >
                   Maysta Technologies
                 </h1>
-                <h1 className={`font-normal text-lg text-gray-800 `}>
+                <h1 className={`font-normal text-[14px] text-gray-800 `}>
                   Let's continue to Innovative and Excel Togather
                 </h1>
               </div>
