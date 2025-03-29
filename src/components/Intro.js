@@ -8,7 +8,7 @@ const Intro = () => {
   return (
     <>
       {/* Parent div */}
-      <div className="about px-4 mt-2 flex items-center py-12" id="about">
+      <div className="about px-4 mt-6 flex items-center py-12 " id="about">
         {/* Child div */}
         <div
           className="flex flex-col lg:flex-row justify-between lg:text-left"

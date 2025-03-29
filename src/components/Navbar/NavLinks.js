@@ -6,7 +6,7 @@ const NavLink = ({ to, activeLink, setActiveLink, children, onClick }) => {
 
   return (
     <HashLink
-      className={`px-4 font-extrabold text-gray-500 font-mono border 
+      className={`px-4 font-bold text-[#5d5656] border 
               transition-all duration-300 ease-in-out rounded-2xl py-2
               hover:bg-gradient-to-r hover:from-orange-700  hover:to-orange-800 
               bg-clip-text hover:text-transparent hover:shadow-lg hover:shadow-orange-500/50

@@ -35,7 +35,7 @@ const NavBar = () => {
               />
               <div className="justify-start flex flex-col items-start  ">
                 <h1
-                  className={`font-extrabold text-3xl  text-[#ff7246] costumAnamation`}
+                  className={`font-extrabold text-4xl  text-[#ff7246] costumAnamation`}
                 >
                   Maysta Technologies
                 </h1>
@@ -71,7 +71,7 @@ const NavBar = () => {
               )}
             </svg>
           </button>
-          <div className="hidden space-x-6 lg:inline-block text-xl  p-5">
+          <div className="hidden space-x-6 lg:inline-block text-xl  p-5 ">
             <NavLinks />
           </div>
 

@@ -23,7 +23,7 @@ const Services = () => {
   };
 
   return (
-    <div id="services" className="services py-12 px-4 relative">
+    <div id="services" className="services mt-6 py-12 px-4 relative">
       <section data-aos="zoom-in-down">
         <div
           className="flex-col my-4 lg:my-0 lg:justify-end w-full  lg:pl-24 pr-4"
@@ -41,7 +41,7 @@ const Services = () => {
         </div>
 
         <div
-          className="relative px-4 md:px-12"
+          className="relative px-4 md:px-12 "
           data-aos="fade-down"
           data-aos-delay="600"
         >
@@ -65,7 +65,7 @@ const Services = () => {
           >
             {[
               {
-                title: "VR Content Creation",
+                title: "VR Content Development",
                 img: img,
                 text: "Crafting immersive storytelling and interactive experiences.",
               },
@@ -95,7 +95,7 @@ const Services = () => {
                 text: "Implementing cutting-edge DevOps practices to enhance automation and accelerate deployment cycles.",
               },
               {
-                title: "Independent Testing",
+                title: "Independent Testing Services",
                 img: img4,
                 text: "Ensuring software reliability through rigorous independent testing and quality assurance.",
               },

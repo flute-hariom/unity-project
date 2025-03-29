@@ -45,7 +45,7 @@ const coreValues = [
 
 const CoreValues = () => {
   return (
-    <div className=" mt-2 flex items-center py-4">
+    <div className=" mt-4 flex items-center py-12">
       <div>
         <div
           className="flex-col my-4 lg:my-0 lg:justify-end w-full  lg:pl-24 pr-4"

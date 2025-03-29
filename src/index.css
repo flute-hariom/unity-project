@@ -15,6 +15,11 @@ body {
   /* Ensures text is visible on the dark background */
 }
 
+
+.costumFont{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .hero {
   /* background: url(./images/hero-bg.svg) top center no-repeat; */
   /* background: radial-gradient(circle, #2d1a00 10%, #110d02 40%, #000000 80%); */
