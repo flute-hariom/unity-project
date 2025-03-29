@@ -27,15 +27,22 @@ const NavBar = () => {
       <div className="flex flex-row justify-around md:justify-between items-center py-2">
         <div className="flex flex-row justify-center md:mx-6 items-center text-center font-semibold">
           <HashLink smooth to="/#hero">
-            <div className="flex flex-row justify-center items-center gap-x-10 py-2">
+            <div className="flex flex-row justify-center items-center gap-x-1 py-2">
               <img
                 alt="card img"
                 className="rounded-t w-20 h-18"
                 src="/Maysta-logo.png"
               />
-              <h1 className={`font-extrabold text-4xl text-gray-800 `}>
-                Maysta
-              </h1>
+              <div className="justify-start flex flex-col items-start  ">
+                <h1
+                  className={`font-extrabold text-3xl  text-[#ff7246] costumAnamation`}
+                >
+                  Maysta Technologies
+                </h1>
+                <h1 className={`font-normal text-lg text-gray-800 `}>
+                  Let's continue to Innovative and Excel Togather
+                </h1>
+              </div>
             </div>
           </HashLink>
         </div>
@@ -64,7 +71,7 @@ const NavBar = () => {
               )}
             </svg>
           </button>
-          <div className="hidden space-x-6 lg:inline-block p-5">
+          <div className="hidden space-x-6 lg:inline-block text-xl  p-5">
             <NavLinks />
           </div>
 

@@ -25,13 +25,19 @@ const Services = () => {
   return (
     <div id="services" className="services py-12 px-4 relative">
       <section data-aos="zoom-in-down">
-        <div className="my-4 py-4">
-          <h2 className="text-center text-5xl md:text-6xl mb-6 uppercase font-bold text-gray-800">
-            Services
-          </h2>
-          <h2 className="mt-4 mx-auto max-w-2xl text-center text-xl md:text-xl font-semibold text-gray-600">
-            We are deeply committed to the growth and success of our clients.
-          </h2>
+        <div
+          className="flex-col my-4 lg:my-0 lg:justify-end w-full  lg:pl-24 pr-4"
+          // data-aos="zoom-in"
+          // data-aos-delay="500"
+        >
+          <h1 className="text-3xl md:text-6xl font-extrabold uppercase costumAnamation">
+            <span className="text-gray-800">Services</span>
+          </h1>
+          <div data-aos="zoom-in" data-aos-delay="200">
+            <p className="my-4  text-lg lg:text-xl font-semibold tracking-tight mb-10 text-gray-600">
+              We are deeply committed to the growth and success of our clients.
+            </p>
+          </div>
         </div>
 
         <div
@@ -121,7 +127,7 @@ const Services = () => {
         </div>
 
         <PillerData />
-        <CoreValues/>
+        <CoreValues />
       </section>
     </div>
   );

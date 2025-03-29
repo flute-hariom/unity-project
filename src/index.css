@@ -9,8 +9,9 @@ body {
   /* background: radial-gradient(circle, #2d1a00 10%, #110d02 40%, #000000 80%); */
   /* background: radial-gradient(circle, #0f172a 10%, #1e293b 40%, #000000 80%); */
   /* background: radial-gradient(circle, #000000 10%, #0f172a 40%, #1e293b 80%); */
-  font-family: "Lato", sans-serif;
+  /* font-family: "Lato", sans-serif; */
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
   /* Ensures text is visible on the dark background */
 }
 
@@ -81,3 +82,28 @@ body {
     url(https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?t=st=1743072411~exp=1743076011~hmac=c36cc56e86d8cbe0c9eb962d7b94bc77f6bd790e50b81a3961af874108deedcb&w=1380)
       fixed center center;
 } */
+
+.costumAnamation {
+  background: linear-gradient(
+    45deg,
+    #5b5531 5%,
+    #4e87dd 10%,
+    #8118b1 30%,
+    rgb(175, 144, 34) 40%,
+    #b41717 50%,
+    #532288 70%,
+    #4e87dd 80%,
+    #ff7246 90%
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 8s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: -200% center;
+  }
+}

@@ -8,34 +8,23 @@ const Intro = () => {
   return (
     <>
       {/* Parent div */}
-      <div className="about px-4 mt-2 flex items-center py-20" id="about">
+      <div className="about px-4 mt-2 flex items-center py-12" id="about">
         {/* Child div */}
         <div
           className="flex flex-col lg:flex-row justify-between lg:text-left"
           // data-aos="fade-up"
         >
-          {/* Left div */}
-          {/* <div className="lg:w-1/3 flex flex-col lg:mx-4 justify-center">
-            <img
-              alt="card img"
-              className="rounded-t float-right duration-1000 w-auto h-auto 
-               max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl 
-               animate-wiggle"
-              src={skullImg}
-            />
-          </div> */}
-
           <div
             className="flex-col my-4 lg:my-0 lg:justify-end w-full lg:w-2/3 lg:pl-24 pr-4"
             // data-aos="zoom-in"
             // data-aos-delay="500"
           >
-            <h1 className="text-3xl lg:text-9xl font-extrabold font-[Poppins,sans-serif]">
+            <h1 className="text-3xl md:text-6xl font-extrabold  costumAnamation">
               <span className="text-gray-800">ABOUT</span>
               <span className="text-[#ff7246]"> US</span>
             </h1>
             <div data-aos="zoom-in" data-aos-delay="200">
-              <p className="my-3 text-lg lg:text-xl font-semibold tracking-tight mb-5 text-gray-600">
+              <p className="my-6 text-lg lg:text-xl font-semibold tracking-tight mb-5 text-gray-600 fontArial">
                 At Maysta, we started at the crossroads of technology and
                 vision. Our team, with over 40 years of combined experience, is
                 dedicated to bringing transformative change to the IT sector. We

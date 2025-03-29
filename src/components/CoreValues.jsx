@@ -45,12 +45,18 @@ const coreValues = [
 
 const CoreValues = () => {
   return (
-    <div className="min-h-screen p-8 bg-gray-100 bg-image">
+    <div className=" mt-2 flex items-center py-4">
       <div>
-        <h1 className="text-3xl w-full mb-10 items-center justify-center flex lg:text-9xl font-extrabold font-[Poppins,sans-serif]">
-          <span className="text-gray-800 mr-2">CORE </span>
-          <span className="text-[#ff7246]"> VALUES</span>
-        </h1>
+        <div
+          className="flex-col my-4 lg:my-0 lg:justify-end w-full  lg:pl-24 pr-4"
+          // data-aos="zoom-in"
+          // data-aos-delay="500"
+        >
+          <h1 className="text-3xl md:text-6xl mb-10 font-extrabold uppercase costumAnamation">
+            <span className="text-gray-800 mr-2">our CORE </span>
+            <span className="text-[#ff7246]"> VALUES</span>
+          </h1>
+        </div>
 
         {coreValues.map((value, index) => (
           <div

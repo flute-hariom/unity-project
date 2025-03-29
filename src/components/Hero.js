@@ -24,9 +24,9 @@ const Hero = () => {
         </div>
 
         {/* Overlay Content */}
-        <div className="relative z-10 m-auto overflow-hidden  mt-8 lg:mt-4 py-2 md:py-12 h-5/6">
+        {/* <div className="relative z-10 m-auto overflow-hidden  mt-8 lg:mt-4 py-2 md:py-12 h-5/6">
           <div className="flex flex-col lg:flex-row py-4 justify-between text-center lg:text-left gap-1">
-            {/* Company Name Section */}
+            
             <div
               className="w-full  flex flex-col justify-center items-center lg:items-start"
               data-aos="zoom-in"
@@ -43,7 +43,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
