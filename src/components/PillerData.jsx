@@ -60,7 +60,7 @@ const PillerData = () => {
   };
 
   return (
-    <div id="services" className="services mt-6 pt-12 relative">
+    <div id="services" className="services mt-16 pt-12 relative">
       <section data-aos="zoom-in-down">
         <div
           className="flex-col my-4 lg:my-0 lg:justify-end w-full lg:pl-24 pr-4"
