@@ -27,14 +27,14 @@ const NavBar = () => {
       <div className="flex flex-row justify-around md:justify-between items-center py-2">
         <div className="flex flex-row justify-center md:mx-6 items-center text-center font-semibold">
           <HashLink smooth to="/#hero">
-            <div className="flex flex-row justify-center items-center gap-x-1 py-">
+            <div className="flex flex-row justify-center items-center gap-x py-">
               <img
                 alt="card img"
                 className="rounded-t w-[90px] h-[90px]"
                 src="/Dlogo2.png"
               />
               <div className="justify-start flex flex-col items-start  ">
-                <h1 className={`font-extrabold text-4xl  text-[#4151c5] `}>
+                <h1 className={`font-extrabold text-3xl  text-[#4151c5] `}>
                   Dimenxion Technologies
                 </h1>
                 <h1 className={`font-normal text-[14px] text-gray-800 `}>

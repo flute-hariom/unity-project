@@ -76,7 +76,7 @@ const Intro = () => {
             <img
               alt="card img"
               className="rounded float-right duration-1000 w-auto h-auto 
-               sm:h-[400px]
+               sm:h-[450px]
                "
               src="/aboutUs.png"
             />
