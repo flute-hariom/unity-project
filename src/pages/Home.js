@@ -11,6 +11,7 @@ import ImpactVR from "../components/ImpactVR";
 import FutureOutLook from "../components/FutureOutLook";
 import NavBar from "../components/Navbar/NavBar";
 import VirtualRealityPage from "../components/VirtualRealityPage";
+import Training from "../components/Training";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Hero />
       <Intro />
       <Services />
+      <Training/>
       {/* <TechIntegration /> */}
       {/* <ImpactVR /> */}
       {/* <FutureOutLook /> */}

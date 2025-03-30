@@ -6,6 +6,7 @@ import img3 from "../images/ram1.jpg";
 import img4 from "../images/ram2.jpg";
 import PillerData from "./PillerData";
 import CoreValues from "./CoreValues";
+import Training from "./Training";
 
 const Services = () => {
   const scrollRef = useRef(null);
@@ -128,6 +129,7 @@ const Services = () => {
 
         <PillerData />
         <CoreValues />
+        {/* <Training/> */}
       </section>
     </div>
   );
