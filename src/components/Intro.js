@@ -68,14 +68,14 @@ const Intro = () => {
           </div>
           {/* Right div */}
           <div
-            className="lg:w-1/3 flex flex-col lg:mx-4 justify-center"
+            className="lg:w-1/2 flex flex-col lg:mx-4 justify-center"
             // data-aos="zoom-in"
             // data-aos-delay="200"
           >
             <img
               alt="card img"
-              className="rounded-t float-right duration-1000 w-auto h-auto 
-               sm:h-[400px] 
+              className="rounded float-right duration-1000 w-auto h-auto 
+               sm:h-[400px]
                "
               src="/aboutUs.png"
             />
