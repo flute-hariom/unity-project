@@ -69,15 +69,15 @@ const Intro = () => {
           {/* Right div */}
           <div
             className="lg:w-1/3 flex flex-col lg:mx-4 justify-center"
-            data-aos="zoom-in"
-            data-aos-delay="200"
+            // data-aos="zoom-in"
+            // data-aos-delay="200"
           >
             <img
               alt="card img"
               className="rounded-t float-right duration-1000 w-auto h-auto 
-               max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl 
-               animate-wiggle"
-              src={skullImg}
+               sm:h-[400px] 
+               "
+              src="/aboutUs.png"
             />
           </div>
         </div>
