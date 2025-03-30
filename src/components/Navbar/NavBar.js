@@ -34,13 +34,12 @@ const NavBar = () => {
                 src="/Maysta-logo.png"
               />
               <div className="justify-start flex flex-col items-start  ">
-                <h1
-                  className={`font-extrabold text-4xl  text-[#ff7246] costumAnamation`}
-                >
-                  Maysta Technologies
+                <h1 className={`font-extrabold text-4xl  text-[#ff7246] `}>
+                  DimenXion Technologies
                 </h1>
                 <h1 className={`font-normal text-[14px] text-gray-800 `}>
-                  Let's continue to Innovative and Excel Togather
+                  {/* Let's continue to Innovative and Excel Togather */}
+                  Innnovation || Solution || Success
                 </h1>
               </div>
             </div>

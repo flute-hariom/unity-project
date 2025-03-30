@@ -54,7 +54,8 @@ const CoreValues = () => {
         >
           <h1 className="text-3xl md:text-6xl mb-10 font-extrabold uppercase costumAnamation">
             <span className="text-gray-800 mr-2">our CORE </span>
-            <span className="text-[#ff7246]"> VALUES</span>
+            {/* <span className="text-[#ff7246]"> VALUES</span> */}
+            <span className="text-gray-800"> VALUES</span>
           </h1>
         </div>
 

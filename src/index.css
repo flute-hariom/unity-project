@@ -88,7 +88,7 @@ body {
       fixed center center;
 } */
 
-.costumAnamation {
+/* .costumAnamation {
   background: linear-gradient(
     45deg,
     #5b5531 5%,
@@ -111,4 +111,10 @@ body {
   to {
     background-position: -200% center;
   }
+} */
+
+
+
+.costumAnamation {
+  color: #111111;
 }
