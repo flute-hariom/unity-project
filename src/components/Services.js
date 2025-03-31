@@ -71,6 +71,11 @@ const Services = () => {
                 text: "Crafting immersive storytelling and interactive experiences.",
               },
               {
+                title: "Independent Testing Services",
+                img: img4,
+                text: "Ensuring software reliability through rigorous independent testing and quality assurance.",
+              },
+              {
                 title: "XR Development",
                 img: img3,
                 text: "Transforming reality with Extended Reality (XR) solutions for immersive user experiences.",
@@ -94,11 +99,6 @@ const Services = () => {
                 title: "DevOps Services",
                 img: img2,
                 text: "Implementing cutting-edge DevOps practices to enhance automation and accelerate deployment cycles.",
-              },
-              {
-                title: "Independent Testing Services",
-                img: img4,
-                text: "Ensuring software reliability through rigorous independent testing and quality assurance.",
               },
             ].map((service, index) => (
               <div
@@ -129,7 +129,7 @@ const Services = () => {
 
         <Training />
         <PillerData />
-        <CoreValues />
+       
       </section>
     </div>
   );

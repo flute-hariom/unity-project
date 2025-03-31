@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from "react";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const coreValues = [
   {
@@ -7,7 +8,7 @@ const coreValues = [
     description: ` Prioritizing our team's well-being, growth, and fostering a culture that values each member`,
     color1: "bg-green-300",
     color2: "bg-green-200",
-    // icon: "🌿",
+    icon: "/empfirst.png",
   },
   {
     letter: "Integrity & Transparency",
@@ -15,7 +16,7 @@ const coreValues = [
     description: ` Upholding the highest standards of honesty and transparency in all our interactions and transactions.`,
     color1: "bg-pink-300",
     color2: "bg-pink-200",
-    // icon: "🎤",
+    icon: "/int.png",
   },
   {
     letter: "Customer-Centric",
@@ -23,7 +24,7 @@ const coreValues = [
     description: ` Going beyond service to build lasting relationships, anticipating and fulfilling customer needs.`,
     color1: "bg-orange-300",
     color2: "bg-orange-200",
-    // icon: "🐶",
+    icon: "/customer.png",
   },
   {
     letter: "Learning and Development",
@@ -31,7 +32,7 @@ const coreValues = [
     description: `Committing to the ongoing development of our team, fostering a culture of perpetual learning and improvement`,
     color1: "bg-yellow-300",
     color2: "bg-yellow-200",
-    // icon: "🤝",
+    icon: "/learning.png",
   },
   {
     letter: "Adaptability",
@@ -39,57 +40,86 @@ const coreValues = [
     description: `: Embracing change as an opportunity, remaining agile and adaptable to evolving industry landscapes.`,
     color1: "bg-purple-300",
     color2: "bg-purple-200",
-    // icon: "🌟",
+    icon: "/industry.png",
   },
 ];
 
 const CoreValues = () => {
+  const scrollRef = useRef(null);
+
+  const scroll = (direction) => {
+    if (scrollRef.current) {
+      const { current } = scrollRef;
+      const scrollAmount = 340; // Adjusted to fit four items per scroll
+      if (direction === "left") {
+        current.scrollLeft -= scrollAmount;
+      } else {
+        current.scrollLeft += scrollAmount;
+      }
+    }
+  };
   return (
-    <div className=" mt-16 flex items-center pt-12">
-      <div>
-        <div
-          className="flex-col my-4 lg:my-0 lg:justify-end w-full  lg:pl-24 pr-4"
-          // data-aos="zoom-in"
-          // data-aos-delay="500"
-        >
+    <div className="mt-16 flex items-center pt-12">
+      <div className="relative w-full">
+        <div className="flex-col my-4 lg:my-0 lg:justify-end lg:pl-24 pr-4">
           <h1 className="text-3xl md:text-6xl mb-10 font-extrabold uppercase costumAnamation">
             <span className="text-gray-800 mr-2">our CORE </span>
-            {/* <span className="text-[#ff7246]"> VALUES</span> */}
             <span className="text-gray-800"> VALUES</span>
           </h1>
         </div>
 
-        {coreValues.map((value, index) => (
-          <div
-            key={index}
-            className="flex flex-col lg:flex-row items-center lg:items-stretch text-white mb-10"
+        <div
+          className="relative px-4 md:px-12"
+          data-aos="fade-down"
+          data-aos-delay="600"
+        >
+          <button
+            onClick={() => scroll("left")}
+            className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full shadow-lg z-10"
           >
-            {/* Left Section */}
-            <div
-              className={`flex w-full lg:w-[30%] p-6 shadow-md items-center text-2xl lg:text-4xl ${value.color1} font-bold text-[#111111] font-sans rounded-t-lg lg:rounded-l-lg lg:rounded-tr-none`}
-              style={{
-                clipPath: "polygon(80% 0, 100% 50%, 80% 100%, 0% 100%, 0 0)",
-              }}
-            >
-              <span className="mr-2">{value.letter}</span>
-            </div>
-
-            {/* Right Section */}
-            <div
-              className={`flex-1 ${value.color2} w-full lg:w-[70%] p-6 shadow-md text-[#1f2937] flex flex-col justify-between lg:ml-[-6%] rounded-b-lg lg:rounded-r-lg lg:rounded-bl-none`}
-              style={{
-                clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%, 5% 51%)",
-              }}
-            >
-              <h2 className="text-xl lg:text-2xl font-bold ml-2 lg:ml-[10%]">
-                {value.title}
-              </h2>
-              <p className="mt-2 text-lg lg:text-xl ml-2 lg:ml-[10%]">
-                {value.description}
-              </p>
-            </div>
+            <FaChevronLeft size={24} />
+          </button>
+          <div
+            ref={scrollRef}
+            className="flex overflow-x-auto p-4"
+            style={{
+              scrollBehavior: "smooth",
+              display: "flex",
+              gap: "16px",
+              width: "100%",
+              overflowX: "scroll",
+              scrollbarWidth: "none",
+            }}
+          >
+            {coreValues.map((pillar, index) => (
+              <div
+                key={index}
+                className="bg-gray-800 transition-all ease-in-out duration-400 overflow-hidden text-white hover:text-black hover:bg-white rounded-lg shadow-xl p-6 w-[260px] md:w-[310px] flex-shrink-0"
+              >
+                <h3 className="font-semibold my-4 text-xl text-center">
+                  {pillar.letter}
+                </h3>
+                <img
+                  src={pillar.icon}
+                  alt={pillar.title}
+                  className="rounded-lg mb-4 w-full h-56 object-cover"
+                />
+                <h4 className="font-semibold my-4 text-xl text-center">
+                  {pillar.title}
+                </h4>
+                <p className="text-md font-medium text-center">
+                  {pillar.description}
+                </p>
+              </div>
+            ))}
           </div>
-        ))}
+          <button
+            onClick={() => scroll("right")}
+            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full shadow-lg z-10"
+          >
+            <FaChevronRight size={24} />
+          </button>
+        </div>
       </div>
     </div>
   );

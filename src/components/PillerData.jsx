@@ -64,8 +64,8 @@ const PillerData = () => {
       <section data-aos="zoom-in-down">
         <div
           className="flex-col my-4 lg:my-0 lg:justify-end w-full lg:pl-24 pr-4"
-          // data-aos="zoom-in"
-          // data-aos-delay="500"
+          data-aos="zoom-in"
+          data-aos-delay="500"
         >
           <h1 className="text-3xl md:text-6xl mb-10 font-extrabold uppercase costumAnamation">
             <span className="text-gray-800"> Our Pillars of Foundation</span>

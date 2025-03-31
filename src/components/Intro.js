@@ -45,27 +45,23 @@ const Intro = () => {
                 improve efficiency.
               </p>
             </div>
-            {/* <Link
-             
-              to="/about-us"
-              className="relative text-gray-500 font-mono bg-white inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group border border-violet-500 transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-violet-500 hover:via-white hover:to-violet-700 bg-clip-text hover:text-transparent hover:shadow-lg hover:shadow-violet-500/50"
-            > */}
-            {/* <div className="relative text-gray-500 font-mono bg-white inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group border border-orange-600 transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-orange-500 hover:via-white hover:to-orange-700 bg-clip-text hover:text-transparent hover:shadow-lg hover:shadow-orange-500/50">
-              See More
-              <svg
-                className="w-4 h-4 ml-1 transition-transform duration-300 transform group-hover:translate-x-2"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                ></path>
-              </svg>
-            </div> */}
-            {/* </Link> */}
+            <Link to="/about-us">
+              <div className="relative text-black font-mono bg-black inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group border border-blue-600 transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-500 hover:via-black hover:to-blue-700 bg-clip-text hover:text-transparent hover:shadow-lg hover:shadow-blue-500/50">
+                See More
+                <svg
+                  className="w-4 h-4 ml-1 transition-transform duration-300 transform group-hover:translate-x-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  ></path>
+                </svg>
+              </div>
+            </Link>
           </div>
           {/* Right div */}
           <div
