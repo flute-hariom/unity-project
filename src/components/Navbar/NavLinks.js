@@ -57,6 +57,14 @@ const NavLinks = ({ onLinkClick }) => {
         Services
       </NavLink>
       <NavLink
+        to="/career"
+        activeLink={activeLink}
+        setActiveLink={setActiveLink}
+        onClick={onLinkClick}
+      >
+        Career
+      </NavLink>
+      <NavLink
         to="/contact#contact"
         activeLink={activeLink}
         setActiveLink={setActiveLink}
