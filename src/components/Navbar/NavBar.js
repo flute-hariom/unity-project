@@ -31,7 +31,7 @@ const NavBar = () => {
               <img
                 alt="card img"
                 className="rounded-t w-[90px] h-[90px]"
-                src="/Dlogo2.png"
+                src="/logo1.png"
               />
               <div className="justify-start flex flex-col items-start  ">
                 <h1 className={`font-extrabold text-3xl  text-[#4151c5] `}>

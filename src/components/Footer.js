@@ -6,13 +6,13 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="footer max-w-full mx-auto px-4 sm:px-6 bg-gray-800 py-30">
+        <div className="footer max-w-full mx-auto px-4 sm:px-6 bg-black py-30">
           {/* Top area: Blocks */}
           <div className="grid sm:grid-cols-12 gap-5 py-8 md:py-12 lg:ml-11">
             {/* 1st block */}
             <div className="col-span-12 lg:col-span-4">
-              <div className="box-border border-b-4 border-[#4151c5] p-8 bg-gray-800 text-white text-center rounded-lg xl:w-80 mx-auto">
-                <h3 className="font-bold text-2xl text-[#4151c5] mb-4">
+              <div className="box-border border-b-4 text-blue-400 p-8 bg-gray-800 text-white text-center rounded-lg  mx-auto">
+                <h3 className="font-bold text-2xl text-blue-400 mb-4">
                   Dimenxion Technologies
                 </h3>
                 <div className="text-md font-medium text-white">
@@ -23,7 +23,7 @@ const Footer = () => {
 
             {/* 2nd block */}
             <div className="col-span-6 md:col-span-6 lg:col-span-1 ml-7 mx-auto">
-              <h6 className="text-[#4151c5] font-bold text-xl mb-4">LINKS</h6>
+              <h6 className="text-blue-400 font-bold text-xl mb-4">LINKS</h6>
               <ul className="text-md text-white">
                 <li className="mb-2">
                   <HashLink
@@ -54,7 +54,7 @@ const Footer = () => {
 
             {/* 3rd block */}
             <div className="col-span-6 md:col-span-6 lg:col-span-4 mx-auto">
-              <h6 className="text-[#4151c5] font-bold text-xl mb-4">
+              <h6 className="text-blue-400 font-bold text-xl mb-4">
                 OUR SERVICES
               </h6>
               <ul className="text-md text-white">

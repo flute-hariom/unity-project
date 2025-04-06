@@ -8,11 +8,11 @@ const NavLink = ({ to, activeLink, setActiveLink, children, onClick }) => {
     <HashLink
       className={`px-4 font-bold text-[#5d5656] border 
               transition-all duration-300 ease-in-out rounded-2xl py-2
-              hover:bg-gradient-to-r hover:from-orange-700  hover:to-orange-800 
-              bg-clip-text hover:text-transparent hover:shadow-lg hover:shadow-orange-500/50
+              hover:bg-gradient-to-r hover:from-blue-700  hover:to-blue-800 
+              bg-clip-text hover:text-transparent hover:shadow-lg hover:shadow-blue-500/50
               ${
                 isActive
-                  ? "border-gray-800 bg-orange-200 text-red-500"
+                  ? "border-gray-800 bg-orange-200 text-blue-500"
                   : "border-transparent"
               }`}
       smooth
@@ -46,7 +46,7 @@ const NavLinks = ({ onLinkClick }) => {
         setActiveLink={setActiveLink}
         onClick={onLinkClick}
       >
-        About us
+        About
       </NavLink>
       <NavLink
         to="/#services"
@@ -70,7 +70,7 @@ const NavLinks = ({ onLinkClick }) => {
         setActiveLink={setActiveLink}
         onClick={onLinkClick}
       >
-        Contact Us
+        Contact
       </NavLink>
     </>
   );
