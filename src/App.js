@@ -11,7 +11,10 @@ import AboutUsMore from "./pages/AboutUsMore";
 
 import { useDocTitle } from "./components/CustomHook";
 import ScrollToTop from "./components/ScrollToTop";
-
+import BlogsByid from "./components/ourBlogs/BlogsByid";
+import Career from "./components/career/Career";
+import NavBar from "./components/Navbar/NavBar";
+import Footer from "./components/Footer";
 function App() {
   useEffect(() => {
     const aos_init = () => {
@@ -33,12 +36,16 @@ function App() {
     <>
       <Router>
         <ScrollToTop>
+          <NavBar/>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/get-demo" element={<DemoProduct />} />
             <Route path="/about-us" element={<AboutUsMore />} />
+            <Route path="/our-blog" element={<BlogsByid />} />
+            <Route path="/career" element={<Career />} />
           </Routes>
+          <Footer/>
         </ScrollToTop>
       </Router>
     </>

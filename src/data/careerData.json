@@ -1,0 +1,74 @@
+{
+  "career_page": {
+    "heading": "Job Openings",
+    "jobs": [
+      {
+        "position": "Frontend Developer",
+        "about_job": "We are looking for a skilled Frontend Developer proficient in React.js and modern JavaScript frameworks to build engaging and user-friendly web interfaces.",
+        "technology_required": [
+          "React.js",
+          "JavaScript (ES6+)",
+          "HTML5",
+          "CSS3",
+          "Redux",
+          "REST APIs"
+        ],
+        "experience_required": "2-4 years"
+      },
+      {
+        "position": "Backend Developer",
+        "about_job": "Join our backend team to design, develop, and maintain scalable APIs and microservices using Node.js, Express, and databases like MongoDB or PostgreSQL.",
+        "technology_required": [
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "PostgreSQL",
+          "REST APIs",
+          "JWT",
+          "Docker"
+        ],
+        "experience_required": "3-5 years"
+      },
+      {
+        "position": "UI/UX Designer",
+        "about_job": "We're hiring a creative UI/UX Designer to craft seamless and intuitive user experiences and visually appealing interfaces for our web and mobile applications.",
+        "technology_required": [
+          "Figma",
+          "Adobe XD",
+          "Sketch",
+          "InVision",
+          "Design Systems",
+          "Wireframing",
+          "Prototyping"
+        ],
+        "experience_required": "1-3 years"
+      },
+      {
+        "position": "Digital Marketing Specialist",
+        "about_job": "We need a digital marketing expert to plan and execute campaigns, manage SEO/SEM, and analyze data to boost our online presence and lead generation.",
+        "technology_required": [
+          "Google Ads",
+          "Google Analytics",
+          "SEO Tools",
+          "Facebook Ads Manager",
+          "Email Marketing",
+          "Content Management Systems"
+        ],
+        "experience_required": "2-4 years"
+      },
+      {
+        "position": "HR & Recruitment Manager",
+        "about_job": "Seeking an HR Manager to lead hiring efforts, employee engagement, and ensure a healthy work culture in alignment with company goals.",
+        "technology_required": [
+          "HRMS Tools",
+          "ATS (Applicant Tracking System)",
+          "MS Office Suite",
+          "Slack",
+          "Zoom",
+          "Google Workspace"
+        ],
+        "experience_required": "4-6 years"
+      }
+    ]
+  }
+}
