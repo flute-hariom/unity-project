@@ -25,15 +25,12 @@ const Intro = () => {
             </h1>
             <div data-aos="zoom-in" data-aos-delay="200">
               <p className="my-6 text-lg lg:text-xl font-semibold tracking-tight mb-5 text-gray-600 fontArial">
-                At Maysta, we started at the crossroads of technology and
-                vision. Our team, with over 40 years of combined experience, is
-                dedicated to bringing transformative change to the IT sector. We
-                strive to go beyond industry standards through ethical
-                practices, vibrant culture, and innovative partnerships. Maysta
-                is more than a company; it's a commitment to shaping the future
-                of tech, where every ethical choice, line of code, and
-                partnership contributes to industry growth. Welcome to the
-                forefront of tech evolution.
+                Our team is dedicated to bringing transformative changes to the
+                IT sector. We strive to go beyond industry standards through
+                ethical practices, vibrant culture, and innovative partnerships.
+                DimenXion is more than a company; it's a commitment to shaping
+                the future of tech, where every ethical choice, line of code,
+                and partnership contributes to industry growth.
               </p>
             </div>
 

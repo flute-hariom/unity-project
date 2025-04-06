@@ -9,7 +9,7 @@ const imageList = [
   "trustimg5.png",
   "trustimg6.png",
   "trustimg7.png",
-  "trustimg8.png",
+  // "trustimg8.png",
   "trustimg9.png",
   "trustimg10.png",
   "trustimg11.png",

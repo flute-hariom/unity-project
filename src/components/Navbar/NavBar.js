@@ -35,7 +35,7 @@ const NavBar = () => {
               />
               <div className="justify-start flex flex-col items-start  ">
                 <h1 className={`font-extrabold text-3xl  text-[#4151c5] `}>
-                  Dimenxion Technologies
+                  DimenXion Technologies
                 </h1>
                 <h1 className={`font-normal text-[14px] text-gray-800 `}>
                   {/* Let's continue to Innovative and Excel Togather */}

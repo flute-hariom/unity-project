@@ -70,37 +70,37 @@ const Services = () => {
               {
                 title: "VR Content Development",
                 img: img,
-                text: "Crafting immersive storytelling and interactive experiences.",
+                text: "Crafting Virtual Worlds, Elevating Real Experiences.",
               },
               {
                 title: "Independent Testing Services",
                 img: img4,
-                text: "Ensuring software reliability through rigorous independent testing and quality assurance.",
+                text: "Your Product, Our Assurance.",
               },
               {
                 title: "XR Development",
                 img: img3,
-                text: "Transforming reality with Extended Reality (XR) solutions for immersive user experiences.",
+                text: "Creating the Next Dimension of Experiences",
               },
               {
                 title: "Web Development",
                 img: img,
-                text: "Crafting innovation and responsive web solutions tailored to your business needs.",
+                text: " Crafting Innovative Web Solutions",
               },
               {
                 title: "Mobile App Solutions",
                 img: "https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169863.jpg",
-                text: "Empowering your business with custom mobile apps for seamless user experience.",
+                text: "Crafting Mobile Excellence",
               },
               {
                 title: "Interactive Simulations",
                 img: img2,
-                text: "Developing training programs and educational simulations.",
+                text: "Bringing Ideas to Life",
               },
               {
                 title: "DevOps Services",
                 img: img2,
-                text: "Implementing cutting-edge DevOps practices to enhance automation and accelerate deployment cycles.",
+                text: "Streamline, Automate, Accelerate.",
               },
             ].map((service, index) => (
               <div
