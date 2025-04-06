@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../images/ram4.png";
+import img from "../images/ram0.png";
 import introImg from "../images/IntroImage.png";
 import skullImg from "../images/ram0.png";
 import { Link } from "react-router-dom";
@@ -22,7 +22,6 @@ const Intro = () => {
             <h1 className="text-3xl md:text-6xl font-extrabold  costumAnamation">
               <span className="text-gray-800 uppercase">who we are</span>
               {/* <span className="text-[#ff7246] "> US</span> */}
-            
             </h1>
             <div data-aos="zoom-in" data-aos-delay="200">
               <p className="my-6 text-lg lg:text-xl font-semibold tracking-tight mb-5 text-gray-600 fontArial">
@@ -71,10 +70,12 @@ const Intro = () => {
           >
             <img
               alt="card img"
-              className="rounded float-right duration-1000 w-auto h-auto 
-               sm:h-[450px]
+              className="rounded float-right duration-1000 w-[600px] h-[600px]
+               
                "
-              src="/aboutUs.png"
+              // src="/aboutUs.png"
+              // src="https://assetstorev1-prd-cdn.unity3d.com/key-image/4dc4be9b-7af7-4087-b1bf-974071dd6e58.webp"
+              src={img}
             />
           </div>
         </div>

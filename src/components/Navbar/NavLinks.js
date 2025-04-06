@@ -46,7 +46,7 @@ const NavLinks = ({ onLinkClick }) => {
         setActiveLink={setActiveLink}
         onClick={onLinkClick}
       >
-        About
+        About us
       </NavLink>
       <NavLink
         to="/#services"

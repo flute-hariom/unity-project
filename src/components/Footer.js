@@ -11,24 +11,24 @@ const Footer = () => {
           <div className="grid sm:grid-cols-12 gap-5 py-8 md:py-12 lg:ml-11">
             {/* 1st block */}
             <div className="col-span-12 lg:col-span-4">
-              <div className="box-border border-b-4 border-orange-600 p-8 bg-gray-800 text-white text-center rounded-lg xl:w-80 mx-auto">
-                <h3 className="font-bold text-2xl text-orange-500 mb-4">
-                  Maysta Technologies
+              <div className="box-border border-b-4 border-[#4151c5] p-8 bg-gray-800 text-white text-center rounded-lg xl:w-80 mx-auto">
+                <h3 className="font-bold text-2xl text-[#4151c5] mb-4">
+                  Dimenxion Technologies
                 </h3>
                 <div className="text-md font-medium text-white">
-                  <p>Realistic Approach, Innovative Solutions</p>
+                  <p>innovation || Solution || success</p>
                 </div>
               </div>
             </div>
 
             {/* 2nd block */}
             <div className="col-span-6 md:col-span-6 lg:col-span-1 ml-7 mx-auto">
-              <h6 className="text-orange-500 font-bold text-xl mb-4">LINKS</h6>
+              <h6 className="text-[#4151c5] font-bold text-xl mb-4">LINKS</h6>
               <ul className="text-md text-white">
                 <li className="mb-2">
                   <HashLink
                     to="#about"
-                    className="hover:text-orange-400 transition duration-250 ease-in-out"
+                    className="hover:text-blue-400 transition duration-250 ease-in-out"
                   >
                     About
                   </HashLink>
@@ -36,7 +36,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <HashLink
                     to="#services"
-                    className="hover:text-orange-400 transition duration-250 ease-in-out"
+                    className="hover:text-blue-400 transition duration-250 ease-in-out"
                   >
                     Services
                   </HashLink>
@@ -44,7 +44,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <HashLink
                     to="/contact/#contact"
-                    className="hover:text-orange-400 transition duration-250 ease-in-out"
+                    className="hover:text-blue-400 transition duration-250 ease-in-out"
                   >
                     Contact
                   </HashLink>
@@ -54,14 +54,14 @@ const Footer = () => {
 
             {/* 3rd block */}
             <div className="col-span-6 md:col-span-6 lg:col-span-4 mx-auto">
-              <h6 className="text-orange-500 font-bold text-xl mb-4">
+              <h6 className="text-[#4151c5] font-bold text-xl mb-4">
                 OUR SERVICES
               </h6>
               <ul className="text-md text-white">
                 <li className="mb-2">
                   <Link
                     to="#"
-                    className="hover:text-orange-400 transition duration-250 ease-in-out"
+                    className="hover:text-blue-400 transition duration-250 ease-in-out"
                   >
                     VR Content Creation
                   </Link>
@@ -69,7 +69,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <Link
                     to="#"
-                    className="hover:text-orange-400 transition duration-250 ease-in-out"
+                    className="hover:text-blue-400 transition duration-250 ease-in-out"
                   >
                     XR Development
                   </Link>
@@ -77,7 +77,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <Link
                     to="#"
-                    className="hover:text-orange-400 transition duration-250 ease-in-out"
+                    className="hover:text-blue-400 transition duration-250 ease-in-out"
                   >
                     Web Development
                   </Link>
@@ -85,7 +85,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <Link
                     to="#"
-                    className="hover:text-orange-400 transition duration-250 ease-in-out"
+                    className="hover:text-blue-400 transition duration-250 ease-in-out"
                   >
                     Mobile App Solutions
                   </Link>
@@ -93,7 +93,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <Link
                     to="#"
-                    className="hover:text-orange-400 transition duration-250 ease-in-out"
+                    className="hover:text-blue-400 transition duration-250 ease-in-out"
                   >
                     Interactive Simulations
                   </Link>
@@ -101,7 +101,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <Link
                     to="#"
-                    className="hover:text-orange-400 transition duration-250 ease-in-out"
+                    className="hover:text-blue-400 transition duration-250 ease-in-out"
                   >
                     DevOps Services
                   </Link>
@@ -109,7 +109,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <Link
                     to="#"
-                    className="hover:text-orange-400 transition duration-250 ease-in-out"
+                    className="hover:text-blue-400 transition duration-250 ease-in-out"
                   >
                     Independent Testing
                   </Link>
@@ -119,11 +119,11 @@ const Footer = () => {
 
             {/* 4th block */}
             <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-white">
-              <div className="text-xl text-orange-500 font-bold">
+              <div className="text-xl text-blue-500 font-bold">
                 Social Media Links.
               </div>
 
-              <div className="text-md text-orange-500 font-bold text-xl">
+              <div className="text-md text-blue-500 font-bold text-xl">
                 Follow us on social media.
               </div>
               <div className="mx-auto text-center mt-2">
@@ -161,7 +161,7 @@ const Footer = () => {
                 Copyright &copy; {new Date().getFullYear()}
                 {"  "}
                 <HashLink to="#" className="hover:text-gray-200">
-                  Maysta Technologies
+                  Dimenxion Technologies
                 </HashLink>
                 . All rights reserved.
               </div>
