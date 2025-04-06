@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="grid sm:grid-cols-12 gap-5 py-8 md:py-12 lg:ml-11">
             {/* 1st block */}
             <div className="col-span-12 lg:col-span-4">
-              <div className="box-border border-b-4 text-blue-400 p-8 bg-gray-800 text-white text-center rounded-lg  mx-auto">
+              <div className="box-border  p-8 bg-gray-800  text-center rounded-lg  mx-auto">
                 <h3 className="font-bold text-2xl text-blue-400 mb-4">
                   Dimenxion Technologies
                 </h3>

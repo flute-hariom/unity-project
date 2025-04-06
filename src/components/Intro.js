@@ -70,8 +70,7 @@ const Intro = () => {
           >
             <img
               alt="card img"
-              className="rounded float-right duration-1000 
-               
+              className="rounded float-right duration-1000 scale-125
                "
               src="/aboutusfinal.png"
               // src="https://assetstorev1-prd-cdn.unity3d.com/key-image/4dc4be9b-7af7-4087-b1bf-974071dd6e58.webp"
