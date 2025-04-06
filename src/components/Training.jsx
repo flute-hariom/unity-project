@@ -8,9 +8,6 @@ const Training = () => {
           <div className="flex-col lg:my-0 lg:justify-end w-full lg:pl-24 pr-4 ">
             <h1 className="text-3xl md:text-6xl mb-10 font-extrabold uppercase costumAnamation">
               <span className="text-gray-800  ">Training & Internship</span>
-              {/* <span className="text-gray-800  ">
-                Innnovation || Solution || Success
-              </span> */}
             </h1>
           </div>
 

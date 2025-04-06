@@ -1,0 +1,41 @@
+{
+  "blogs_page": {
+    "heading": "our blogs",
+    "blogs": [
+      {
+        "photo": "https://rwizen-blog.rwizen.in//uploads/12_Exploring_the_potential_a4575bcb65.jpg",
+
+        "publish_date": "2025-04-01",
+        "title": "Spring Blossoms in the City",
+        "content": "As the seasons shift, vibrant blossoms breathe life into the urban landscape, drawing crowds to city parks and avenues."
+      },
+      {
+        "photo": "https://img.freepik.com/free-photo/computer-graphic-urban-structure-wooden-white_1134-901.jpg?t=st=1743072347~exp=1743075947~hmac=769b4fad9899c8613654ed125d2f27164954ed7f6495e0633638223e36e166f5&w=1380",
+
+        "publish_date": "2025-03-28",
+        "title": "Tech Conference Highlights",
+        "content": "The annual tech summit unveiled lorem300 groundbreaking AI developments, with leaders emphasizing ethical The annual tech summit unveiled lorem300 groundbreaking AI developments, with leaders emphasizing ethical  The annual tech summit unveiled lorem300 groundbreaking AI developments, with leaders emphasizing ethical  The annual tech summit unveiled lorem300 groundbreaking AI developments, with leaders emphasizing ethical  The annual tech summit unveiled lorem300 groundbreaking AI developments, with leaders emphasizing ethical  The annual tech summit unveiled lorem300 groundbreaking AI developments, with leaders emphasizing ethical  innovation and global accessibility."
+      },
+      {
+        "photo": "https://img.freepik.com/free-photo/computer-graphic-urban-structure-wooden-white_1134-901.jpg?t=st=1743072347~exp=1743075947~hmac=769b4fad9899c8613654ed125d2f27164954ed7f6495e0633638223e36e166f5&w=1380",
+
+        "publish_date": "2025-04-03",
+        "title": "Local Artist’s Mural Transforms Downtown",
+        "content": "A stunning mural by local artist Maya Lin now adorns the heart of downtown, celebrating community, diversity, and creativity."
+      },
+      {
+        "photo": "https://img.freepik.com/free-photo/computer-graphic-urban-structure-wooden-white_1134-901.jpg?t=st=1743072347~exp=1743075947~hmac=769b4fad9899c8613654ed125d2f27164954ed7f6495e0633638223e36e166f5&w=1380",
+
+        "publish_date": "2025-03-30",
+        "title": "Eco-Initiatives Gain Momentum",
+        "content": "Cities across the globe are ramping up eco-initiatives, from tree planting to plastic-free markets, driving sustainable change."
+      },
+      {
+        "photo": "https://img.freepik.com/free-photo/computer-graphic-urban-structure-wooden-white_1134-901.jpg?t=st=1743072347~exp=1743075947~hmac=769b4fad9899c8613654ed125d2f27164954ed7f6495e0633638223e36e166f5&w=1380",
+        "publish_date": "2025-04-05",
+        "title": "Historic Landmark Reopens After Renovation",
+        "content": "After years of careful restoration, the Grand Heritage Museum reopened its doors, blending history with modern exhibits."
+      }
+    ]
+  }
+}

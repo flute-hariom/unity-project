@@ -8,6 +8,7 @@ import PillerData from "./PillerData";
 import CoreValues from "./CoreValues";
 import Training from "./Training";
 import TrustedBy from "./TrustedBy";
+import AllBlogs from "./ourBlogs/AllBlogs";
 
 const Services = () => {
   const scrollRef = useRef(null);
@@ -128,10 +129,10 @@ const Services = () => {
           </button>
         </div>
 
-        <Training />
+        {/* <Training /> */}
+        <AllBlogs />
         <PillerData />
-        <TrustedBy/>
-       
+        <TrustedBy />
       </section>
     </div>
   );

@@ -36,7 +36,7 @@ function App() {
     <>
       <Router>
         <ScrollToTop>
-          <NavBar/>
+          <NavBar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
@@ -45,7 +45,7 @@ function App() {
             <Route path="/our-blog" element={<BlogsByid />} />
             <Route path="/career" element={<Career />} />
           </Routes>
-          <Footer/>
+          <Footer />
         </ScrollToTop>
       </Router>
     </>
