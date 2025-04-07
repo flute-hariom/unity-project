@@ -33,7 +33,7 @@ const Services = () => {
           // data-aos="zoom-in"
           // data-aos-delay="500"
         >
-          <h1 className="text-3xl md:text-6xl font-extrabold uppercase costumAnamation">
+          <h1 className="text-3xl md:text-5xl font-extrabold uppercase costumAnamation">
             <span className="text-gray-800"> how can we help</span>
           </h1>
           <div data-aos="zoom-in" data-aos-delay="200">
@@ -132,7 +132,7 @@ const Services = () => {
         {/* <Training /> */}
 
         {/* <PillerData /> */}
-        <TrustedBy />
+        {/* <TrustedBy /> */}
         <AllBlogs />
       </section>
     </div>

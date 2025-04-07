@@ -6,16 +6,16 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="footer max-w-full mx-auto px-4 sm:px-6 bg-black py-30">
+        <div className="footer max-w-full mx-auto px-4 sm:px-6 bg-white py-30">
           {/* Top area: Blocks */}
           <div className="grid sm:grid-cols-12 gap-5 py-8 md:py-12 lg:ml-11">
             {/* 1st block */}
             <div className="col-span-12 lg:col-span-4">
-              <div className="box-border  p-8 bg-gray-800  text-center rounded-lg  mx-auto">
+              <div className="box-border  p-8   text-center rounded-lg  mx-auto">
                 <h3 className="font-bold text-2xl text-blue-400 mb-4">
                   Dimenxion Technologies
                 </h3>
-                <div className="text-md font-medium text-white">
+                <div className="text-md font-medium text-black">
                   <p>innovation || Solution || success</p>
                 </div>
               </div>
@@ -24,7 +24,7 @@ const Footer = () => {
             {/* 2nd block */}
             <div className="col-span-6 md:col-span-6 lg:col-span-1 ml-7 mx-auto">
               <h6 className="text-blue-400 font-bold text-xl mb-4">LINKS</h6>
-              <ul className="text-md text-white">
+              <ul className="text-md text-black">
                 <li className="mb-2">
                   <HashLink
                     to="#about"
@@ -57,7 +57,7 @@ const Footer = () => {
               <h6 className="text-blue-400 font-bold text-xl mb-4">
                 OUR SERVICES
               </h6>
-              <ul className="text-md text-white">
+              <ul className="text-md text-black">
                 <li className="mb-2">
                   <Link
                     to="#"
@@ -118,7 +118,7 @@ const Footer = () => {
             </div>
 
             {/* 4th block */}
-            <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-white">
+            <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-black">
               <div className="text-xl text-blue-500 font-bold">
                 Social Media Links.
               </div>
@@ -131,7 +131,7 @@ const Footer = () => {
                   <li>
                     <Link
                       to="#"
-                      className="flex justify-center items-center text-gray-800 hover:text-gray-500 bg-white rounded-full shadow transition duration-150 ease-in-out"
+                      className="flex justify-center items-center text-gray-800 hover:text-gray-500 bg-blue-300 rounded-full shadow transition duration-150 ease-in-out"
                       aria-label="Twitter"
                     >
                       <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32">
@@ -142,7 +142,7 @@ const Footer = () => {
                   <li className="ml-4">
                     <Link
                       to="#"
-                      className="flex justify-center items-center text-gray-800 hover:text-gray-500 bg-white rounded-full shadow transition duration-150 ease-in-out"
+                      className="flex justify-center items-center text-gray-800 hover:text-gray-500 bg-blue-300 rounded-full shadow transition duration-150 ease-in-out"
                       aria-label="Facebook"
                     >
                       <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32">
@@ -157,7 +157,7 @@ const Footer = () => {
 
           <div className="flex flex-wrap items-center md:justify-between justify-center mx-auto px-4">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center py-2">
-              <div className="text-sm text-gray-400 font-semibold py-1">
+              <div className="text-sm text-gray-600 font-semibold py-1">
                 Copyright &copy; {new Date().getFullYear()}
                 {"  "}
                 <HashLink to="#" className="hover:text-gray-200">

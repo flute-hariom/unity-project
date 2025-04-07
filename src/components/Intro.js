@@ -19,7 +19,7 @@ const Intro = () => {
             // data-aos="zoom-in"
             // data-aos-delay="500"
           >
-            <h1 className="text-3xl md:text-6xl font-extrabold  costumAnamation">
+            <h1 className="text-3xl md:text-5xl font-extrabold  costumAnamation">
               <span className="text-gray-800 uppercase">who we are</span>
               {/* <span className="text-[#ff7246] "> US</span> */}
             </h1>
@@ -34,13 +34,13 @@ const Intro = () => {
               </p>
             </div>
 
-            <div data-aos="zoom-in" data-aos-delay="200">
+            {/* <div data-aos="zoom-in" data-aos-delay="200">
               <p className="my-3 text-lg lg:text-xl font-semibold tracking-tight mb-5 text-gray-600">
                 We take responsibility for building custom software solutions
                 that cater to the automation of your business processes and
                 improve efficiency.
               </p>
-            </div>
+            </div> */}
             <Link to="/about-us">
               <div className="relative text-black font-mono bg-black inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group border border-blue-600 transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-500 hover:via-black hover:to-blue-700 bg-clip-text hover:text-transparent hover:shadow-lg hover:shadow-blue-500/50">
                 See More
