@@ -53,7 +53,7 @@ const AllBlogs = () => {
                 key={index}
                 className="w-1/3 flex-shrink-0 bg-white rounded-2xl shadow-lg p-6 transition-transform hover:scale-[1.02]"
               >
-                <img src={blogs.photo} className="mb-4 rounded-lg h-[350px]" />
+                <img src={blogs.photo} className="mb-4 rounded-lg h-[350px] w-full" />
                 <p className="text-gray-800 mb-2 mt-2">
                   <strong>
                     <span className="text-base  ">{blogs.publish_date}</span>
