@@ -25,6 +25,7 @@
     "react-select": "^5.10.1",
     "react-slick": "^0.30.3",
     "react-transition-group": "^4.4.2",
+    "react-vertical-timeline-component": "^3.5.3",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.2"
   },

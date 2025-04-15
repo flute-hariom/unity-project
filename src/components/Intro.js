@@ -2,9 +2,12 @@ import React from "react";
 import img from "../images/ram0.png";
 import introImg from "../images/IntroImage.png";
 import skullImg from "../images/ram0.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Intro = () => {
+  const location = useLocation();
+
+  console.log("location", location);
   return (
     <>
       {/* Parent div */}
@@ -20,8 +23,8 @@ const Intro = () => {
             // data-aos-delay="500"
           >
             <h1 className="text-3xl md:text-5xl font-extrabold  costumAnamation">
-              <span className=" font-extrabold text-3xl text-gray-800 uppercase">
-                who we are
+              <span className=" font-extrabold text-3xl text-gray-800  ">
+                Who we are
               </span>
               {/* <span className="text-[#ff7246] "> US</span> */}
             </h1>

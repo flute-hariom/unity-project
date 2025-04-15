@@ -144,3 +144,11 @@ body {
     transform: translateX(-50%);
   }
 }
+
+
+
+.vertical-timeline::before {
+  background: #6c63ff !important;
+  width: 4px !important;
+  /* left: 18px !important; */
+}

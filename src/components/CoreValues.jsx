@@ -1,5 +1,11 @@
-import React, { useRef } from "react";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import React, { useEffect } from "react";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const coreValues = [
   {
@@ -20,7 +26,7 @@ const coreValues = [
   },
   {
     letter: "Customer-Centric",
-    title: "  Exceeding Expectations:",
+    title: "Exceeding Expectations:",
     description: ` Going beyond service to build lasting relationships, anticipating and fulfilling customer needs.`,
     color1: "bg-orange-300",
     color2: "bg-orange-200",
@@ -37,7 +43,7 @@ const coreValues = [
   {
     letter: "Adaptability",
     title: "Nimble Innovation:",
-    description: `: Embracing change as an opportunity, remaining agile and adaptable to evolving industry landscapes.`,
+    description: ` Embracing change as an opportunity, remaining agile and adaptable to evolving industry landscapes.`,
     color1: "bg-purple-300",
     color2: "bg-purple-200",
     icon: "/industry.png",
@@ -45,82 +51,63 @@ const coreValues = [
 ];
 
 const CoreValues = () => {
-  const scrollRef = useRef(null);
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false, // Ensures animation happens every time you scroll
+    });
+  }, []);
 
-  const scroll = (direction) => {
-    if (scrollRef.current) {
-      const { current } = scrollRef;
-      const scrollAmount = 340; // Adjusted to fit four items per scroll
-      if (direction === "left") {
-        current.scrollLeft -= scrollAmount;
-      } else {
-        current.scrollLeft += scrollAmount;
-      }
-    }
-  };
   return (
     <div className="mt-16 flex items-center pt-12">
       <div className="relative w-full">
         <div className="flex-col my-4 lg:my-0 lg:justify-end lg:pl-24 pr-4">
-          <h1 className="text-3xl md:text-6xl mb-10 font-extrabold uppercase costumAnamation">
+          <h1 className="text-3xl md:text-6xl mb-10 font-extrabold  costumAnamation">
             <span className="text-gray-800 mr-2 font-extrabold text-3xl">
-              our CORE values
+              Our core values
             </span>
           </h1>
         </div>
 
-        <div
-          className="relative px-4 md:px-12"
-          data-aos="fade-down"
-          data-aos-delay="600"
-        >
-          <button
-            onClick={() => scroll("left")}
-            className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full shadow-lg z-10"
-          >
-            <FaChevronLeft size={24} />
-          </button>
-          <div
-            ref={scrollRef}
-            className="flex overflow-x-auto p-4"
-            style={{
-              scrollBehavior: "smooth",
-              display: "flex",
-              gap: "16px",
-              width: "100%",
-              overflowX: "scroll",
-              scrollbarWidth: "none",
-            }}
-          >
-            {coreValues.map((pillar, index) => (
-              <div
-                key={index}
-                className="bg-gray-800 transition-all ease-in-out duration-400 overflow-hidden text-white hover:text-black hover:bg-white rounded-lg shadow-xl p-6 w-[260px] md:w-[310px] flex-shrink-0"
-              >
-                <h3 className="font-semibold my-4 text-xl text-center">
-                  {pillar.letter}
-                </h3>
+        <VerticalTimeline>
+          {coreValues.map((pillar, index) => (
+            <VerticalTimelineElement
+              key={index}
+              contentStyle={{ background: "#f9fafb", color: "#111827" }}
+              contentArrowStyle={{ borderRight: "7px solid #f9fafb" }}
+              iconStyle={{ background: "#6c63ff", color: "#fff" }}
+              icon={
                 <img
                   src={pillar.icon}
                   alt={pillar.title}
-                  className="rounded-lg mb-4 w-full h-56 object-cover"
+                  className="w-full h-full object-contain p-2"
                 />
-                <h4 className="font-semibold my-4 text-xl text-center">
+              }
+              lineColor="#6c63ff"
+              data-aos="fade-up"
+            >
+              <div>
+                <div className="w-[200px] h-[200px]">
+                  <img
+                    src={pillar.icon}
+                    alt={pillar.title}
+                    className="w-full h-full object-contain p-2 "
+                  />
+                </div>
+
+                <h3 className="font-semibold text-xl text-center">
+                  {pillar.letter}
+                </h3>
+                <h4 className="font-semibold text-lg text-center mt-2">
                   {pillar.title}
                 </h4>
-                <p className="text-md font-medium text-center">
+                <p className="text-md font-medium text-center mt-2">
                   {pillar.description}
                 </p>
               </div>
-            ))}
-          </div>
-          <button
-            onClick={() => scroll("right")}
-            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full shadow-lg z-10"
-          >
-            <FaChevronRight size={24} />
-          </button>
-        </div>
+            </VerticalTimelineElement>
+          ))}
+        </VerticalTimeline>
       </div>
     </div>
   );
