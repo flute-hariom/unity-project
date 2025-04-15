@@ -15,6 +15,7 @@ import BlogsByid from "./components/ourBlogs/BlogsByid";
 import Career from "./components/career/Career";
 import NavBar from "./components/Navbar/NavBar";
 import Footer from "./components/Footer";
+import ScrollOnTop from "./components/ScrollOnTop";
 function App() {
   useEffect(() => {
     const aos_init = () => {
@@ -35,18 +36,17 @@ function App() {
   return (
     <>
       <Router>
-        <ScrollToTop>
-          <NavBar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/get-demo" element={<DemoProduct />} />
-            <Route path="/about-us" element={<AboutUsMore />} />
-            <Route path="/our-blog" element={<BlogsByid />} />
-            <Route path="/career" element={<Career />} />
-          </Routes>
-          <Footer />
-        </ScrollToTop>
+        <ScrollOnTop />
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/get-demo" element={<DemoProduct />} />
+          <Route path="/about-us" element={<AboutUsMore />} />
+          <Route path="/our-blog" element={<BlogsByid />} />
+          <Route path="/career" element={<Career />} />
+        </Routes>
+        <Footer />
       </Router>
     </>
   );

@@ -20,7 +20,9 @@ const Intro = () => {
             // data-aos-delay="500"
           >
             <h1 className="text-3xl md:text-5xl font-extrabold  costumAnamation">
-              <span className="text-gray-800 uppercase">who we are</span>
+              <span className=" font-extrabold text-3xl text-gray-800 uppercase">
+                who we are
+              </span>
               {/* <span className="text-[#ff7246] "> US</span> */}
             </h1>
             <div data-aos="zoom-in" data-aos-delay="200">

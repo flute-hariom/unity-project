@@ -68,7 +68,10 @@ const PillerData = () => {
           data-aos-delay="500"
         >
           <h1 className="text-3xl md:text-6xl mb-10 font-extrabold uppercase costumAnamation">
-            <span className="text-gray-800"> Our Pillars of Foundation</span>
+            <span className=" font-extrabold text-3xl text-gray-800">
+              {" "}
+              Our Pillars of Foundation
+            </span>
           </h1>
         </div>
 

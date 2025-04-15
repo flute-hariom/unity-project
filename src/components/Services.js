@@ -34,7 +34,10 @@ const Services = () => {
           // data-aos-delay="500"
         >
           <h1 className="text-3xl md:text-5xl font-extrabold uppercase costumAnamation">
-            <span className="text-gray-800"> how can we help</span>
+            <span className="font-extrabold text-3xl text-gray-800">
+              {" "}
+              how can we help
+            </span>
           </h1>
           <div data-aos="zoom-in" data-aos-delay="200">
             <p className="my-4  text-lg lg:text-xl font-semibold tracking-tight mb-10 text-gray-600">
