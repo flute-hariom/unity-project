@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import careerData from "../../data/careerData.json";
 import Select from "react-select";
 import Training from "../Training";
+import axios from "axios";
 
 const Career = () => {
   const { heading, jobs } = careerData.career_page;
@@ -59,25 +60,56 @@ const Career = () => {
     setFormData({ ...formData, file: e.target.files[0] });
   };
 
-  const handleSubmit = (e) => {
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+
+  //   const formDataToSend = new FormData();
+  //   formDataToSend.append("name", formData.name);
+  //   formDataToSend.append("email", formData.email);
+  //   formDataToSend.append("phone", formData.mobile);
+  //   formDataToSend.append("job_title", formData.jobTitle);
+  //   formDataToSend.append("exp_year", selectedYear.value);
+  //   formDataToSend.append("exp_month", selectedMonth.value);
+  //   formDataToSend.append("cv", formData.file);
+
+  //   // Log all data
+  //   console.log("Form Data:");
+  //   for (let pair of formDataToSend.entries()) {
+  //     console.log(`${pair[0]}:`, pair[1]);
+  //   }
+
+  //   closeModal();
+  // };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const formDataToSend = new FormData();
-    formDataToSend.append("name", formData.name);
-    formDataToSend.append("email", formData.email);
-    formDataToSend.append("phone", formData.mobile);
-    formDataToSend.append("job_title", formData.jobTitle);
-    formDataToSend.append("exp_year", selectedYear.value);
-    formDataToSend.append("exp_month", selectedMonth.value);
-    formDataToSend.append("cv", formData.file);
+    const payload = new FormData();
+    payload.append("name", formData.name);
+    payload.append("email", formData.email);
+    payload.append("phone", formData.mobile);
+    payload.append("job_title", formData.jobTitle);
+    payload.append("exp_year", selectedYear.value);
+    payload.append("exp_month", selectedMonth.value);
+    payload.append("cv", formData.file);
 
-    // Log all data
-    console.log("Form Data:");
-    for (let pair of formDataToSend.entries()) {
-      console.log(`${pair[0]}:`, pair[1]);
+    try {
+      const response = await axios.post(
+        "http://localhost:5000/send-email",
+        payload,
+        {
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        }
+      );
+
+      alert(response.data.message);
+      closeModal();
+    } catch (error) {
+      console.error("Email send failed:", error);
+      alert("Failed to send application. Please try again later.");
     }
-
-    closeModal();
   };
 
   return (
