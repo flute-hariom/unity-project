@@ -126,8 +126,6 @@ body {
   animation: 30s linear 0s infinite normal none running jJyngJ;
 }
 
-
-
 .scrolling-container {
   display: flex;
   align-items: center;
@@ -145,10 +143,13 @@ body {
   }
 }
 
-
-
 .vertical-timeline::before {
   background: #6c63ff !important;
   width: 4px !important;
   /* left: 18px !important; */
 }
+
+
+/* .careerbutton {
+  background: linear-gradient(0deg, #888 0, #575757);
+} */

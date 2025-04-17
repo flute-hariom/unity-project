@@ -60,27 +60,6 @@ const Career = () => {
     setFormData({ ...formData, file: e.target.files[0] });
   };
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-
-  //   const formDataToSend = new FormData();
-  //   formDataToSend.append("name", formData.name);
-  //   formDataToSend.append("email", formData.email);
-  //   formDataToSend.append("phone", formData.mobile);
-  //   formDataToSend.append("job_title", formData.jobTitle);
-  //   formDataToSend.append("exp_year", selectedYear.value);
-  //   formDataToSend.append("exp_month", selectedMonth.value);
-  //   formDataToSend.append("cv", formData.file);
-
-  //   // Log all data
-  //   console.log("Form Data:");
-  //   for (let pair of formDataToSend.entries()) {
-  //     console.log(`${pair[0]}:`, pair[1]);
-  //   }
-
-  //   closeModal();
-  // };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -161,58 +140,82 @@ const Career = () => {
 
           {isModalOpen && (
             <div
-              className="fixed inset-0 z-50 flex justify-center items-center  bg-black bg-opacity-50"
+              className="fixed inset-0 z-50 flex justify-center items-center  bg-black bg-opacity-70"
               onClick={closeModal}
             >
               <div
-                className="bg-white dark:bg-gray-700 rounded-lg shadow-lg w-full max-w-2xl p-5 relative pt-8"
+                className=" bg-[#ffffc8] !bg-[#f9f8f8]  rounded-lg shadow-lg w-full max-w-5xl px-14 p-5 relative pt-8 text-[#111111]"
                 onClick={(e) => e.stopPropagation()}
               >
+                <h2 className="text-center text-4xl font-semibold my-4">
+                  Job Application Form
+                </h2>
+                <h4 className="text-center text-2xl mb-10">
+                  Please Fill Out the Form Below to Submit Your Job Application!
+                </h4>
                 <form
                   className="pb-4 w-full flex flex-col space-y-3"
                   onSubmit={handleSubmit}
                 >
-                  <input
-                    className="p-2 w-full rounded-md ring-1 ring-gray-300 focus:ring-2 focus:ring-indigo-600 text-gray-900"
-                    type="text"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleFormChange}
-                    placeholder="Your full name"
-                    required
-                  />
+                  <div className="flex  gap-8 mb-5">
+                    <div className="w-1/2">
+                      <label className=" block mb-2"> First Name</label>
+                      <input
+                        className="p-2 w-full rounded-md ring-1 ring-gray-300 focus:ring-2 focus:ring-indigo-600 text-gray-900"
+                        type="text"
+                        name="name"
+                        value={formData.name}
+                        onChange={handleFormChange}
+                        placeholder="First name"
+                        required
+                      />
+                    </div>
+                    <div className="w-1/2 ">
+                      <label className=" block mb-2"> Last Name</label>
+                      <input
+                        className="p-2 w-full rounded-md ring-1 ring-gray-300 focus:ring-2 focus:ring-indigo-600 text-gray-900"
+                        type="text"
+                        name="name"
+                        value={formData.name}
+                        onChange={handleFormChange}
+                        placeholder=" Last name"
+                        required
+                      />
+                    </div>
+                  </div>
 
-                  <input
-                    className="p-2 w-full rounded-md ring-1 ring-gray-300 focus:ring-2 focus:ring-indigo-600 text-gray-900"
-                    type="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleFormChange}
-                    placeholder="Your Email"
-                    required
-                  />
+                  <div className="flex gap-8 !mb-5">
+                    <div className="w-1/2">
+                      <label className=" block mb-2"> E-mail</label>
+                      <input
+                        className="p-2 w-full rounded-md ring-1 ring-gray-300 focus:ring-2 focus:ring-indigo-600 text-gray-900"
+                        type="email"
+                        name="email"
+                        value={formData.email}
+                        onChange={handleFormChange}
+                        placeholder="Your Email"
+                        required
+                      />
+                    </div>
 
-                  <input
-                    className="p-2 w-full rounded-md ring-1 ring-gray-300 focus:ring-2 focus:ring-indigo-600 text-gray-900"
-                    type="tel"
-                    name="mobile"
-                    value={formData.mobile}
-                    onChange={handleFormChange}
-                    placeholder="Your Mobile Number"
-                  />
+                    <div className="w-1/2">
+                      <label className=" block mb-2"> Phone Number</label>
 
-                  <input
-                    className="p-2 w-full rounded-md ring-1 ring-gray-300 focus:ring-2 focus:ring-indigo-600 text-gray-900"
-                    type="text"
-                    name="jobTitle"
-                    value={formData.jobTitle}
-                    readOnly
-                    placeholder="Job Title"
-                  />
+                      <input
+                        className="p-2 w-full rounded-md ring-1 ring-gray-300 focus:ring-2 focus:ring-indigo-600 text-gray-900"
+                        type="tel"
+                        name="mobile"
+                        value={formData.mobile}
+                        onChange={handleFormChange}
+                        placeholder="Your Mobile Number"
+                      />
+                    </div>
+                  </div>
 
+                  {/* <div></div> */}
                   <span>Experience:</span>
 
-                  <div className="flex space-x-4 text-black">
+                  <div className="flex space-x-10 !mb-5 text-black">
                     <Select
                       className="w-1/2"
                       value={selectedYear}
@@ -229,18 +232,31 @@ const Career = () => {
                     />
                   </div>
 
+                  <div className="!mb-5">
+                    <label className=" block mb-2">Applied Position</label>
+                    <input
+                      className="p-2 w-full rounded-md ring-1 ring-gray-300 focus:ring-2 focus:ring-indigo-600 text-gray-900"
+                      type="text"
+                      name="jobTitle"
+                      value={formData.jobTitle}
+                      readOnly
+                      placeholder="Job Title"
+                    />
+                  </div>
+
                   <input
                     name="cv"
                     type="file"
                     onChange={handleFileChange}
                     required
-                    className="p-2 block w-full rounded-md ring-1 ring-gray-300 focus:ring-2 focus:ring-indigo-600 text-white"
+                    className="p-2 block w-full rounded-md ring-1 ring-gray-300 focus:ring-2 focus:ring-black-600 text-gray-900"
                   />
 
-                  <div className="flex justify-center gap-4">
+                  <div className="flex justify-center gap-4 !mt-6">
                     <button
                       type="submit"
-                      className="rounded-full bg-indigo-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-indigo-700"
+                      className="rounded-full bg-indigo-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-indigo-700 "
+                      // className="rounded-full bg-indigo-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-indigo-700  careerbutton"
                     >
                       Submit
                     </button>
