@@ -6,7 +6,7 @@ const Training = () => {
       <div className="mt-16 pt-12 " id="hero">
         <section data-aos="">
           <div className="flex-col lg:my-0 lg:justify-end w-full lg:pl-24 pr-4 ">
-            <h1 className="text-3xl md:text-5xl mb-10 font-extrabold uppercase costumAnamation">
+            <h1 className="text-3xl md:text-5xl mb-10 font-extrabold   costumAnamation">
               <span className="text-gray-800  font-extrabold text-3xl">
                 Training & Internship
               </span>

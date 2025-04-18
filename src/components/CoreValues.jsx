@@ -73,7 +73,7 @@ const CoreValues = () => {
           {coreValues.map((pillar, index) => (
             <VerticalTimelineElement
               key={index}
-              contentStyle={{ background: "#f9fafb", color: "#111827" }}
+              contentStyle={{ background: "#c1e0ff", color: "#111827" }}
               contentArrowStyle={{ borderRight: "7px solid #f9fafb" }}
               iconStyle={{ background: "#6c63ff", color: "#fff" }}
               icon={
@@ -83,21 +83,19 @@ const CoreValues = () => {
                   className="w-full h-full object-contain p-2"
                 />
               }
+              date={pillar.letter}
               lineColor="#6c63ff"
               data-aos="fade-up"
             >
               <div>
-                <div className="w-[200px] h-[200px]">
+                <div className="w-[200px] h-[200px] mx-auto">
                   <img
                     src={pillar.icon}
                     alt={pillar.title}
-                    className="w-full h-full object-contain p-2 "
+                    className="w-full h-full object-contain p-2"
                   />
                 </div>
 
-                <h3 className="font-semibold text-xl text-center">
-                  {pillar.letter}
-                </h3>
                 <h4 className="font-semibold text-lg text-center mt-2">
                   {pillar.title}
                 </h4>

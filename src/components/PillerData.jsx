@@ -67,7 +67,7 @@ const PillerData = () => {
           data-aos="zoom-in"
           data-aos-delay="500"
         >
-          <h1 className="text-3xl md:text-6xl mb-10 font-extrabold uppercase costumAnamation">
+          <h1 className="text-3xl md:text-6xl mb-10 font-extrabold   costumAnamation">
             <span className=" font-extrabold text-3xl text-gray-800">
               {" "}
               Our Pillars of Foundation
@@ -98,24 +98,7 @@ const PillerData = () => {
               scrollbarWidth: "none",
             }}
           >
-            {/* {pillarsData.map((service, index) => (
-              <div
-                key={index}
-                className="bg-gray-800 transition-all ease-in-out duration-400 overflow-hidden text-white hover:text-black hover:bg-white rounded-lg shadow-xl p-6 w-[260px] md:w-[310px] flex-shrink-0"
-              >
-                <h2 className="font-semibold my-4 text-xl text-center">
-                  {service.title}
-                </h2>
-                <img
-                  alt="card img"
-                  className="rounded-t group-hover:scale-[1.1] transition duration-700 ease-in-out w-full h-56 object-cover my-5"
-                  src={service.img}
-                />
-                <p className="text-md font-medium text-center">
-                  {service.text}
-                </p>
-              </div>
-            ))} */}
+            
             {pillarsData.map((pillar, index) => (
               <div
                 key={index}
