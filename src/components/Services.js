@@ -86,6 +86,7 @@ const Services = () => {
                 title: "XR Development",
                 img: img3,
                 text: "Creating the Next Dimension of Experiences",
+                link: "/ourService/xrdevelopment",
               },
               {
                 title: "Web Development",
@@ -104,6 +105,7 @@ const Services = () => {
               },
               {
                 title: "DevOps Services",
+                link: "/ourService/devops",
                 img: img2,
                 text: "Streamline, Automate, Accelerate.",
               },

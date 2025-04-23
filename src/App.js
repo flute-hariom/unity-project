@@ -17,6 +17,8 @@ import NavBar from "./components/Navbar/NavBar";
 import Footer from "./components/Footer";
 import ScrollOnTop from "./components/ScrollOnTop";
 import VrContentDevelopment from "./components/individualServicePage/VrContentDevelopment";
+import DevopsService from "./components/individualServicePage/DevopsService";
+import XrDevelopment from "./components/individualServicePage/XrDevelopment";
 function App() {
   useEffect(() => {
     const aos_init = () => {
@@ -47,6 +49,8 @@ function App() {
           <Route path="/our-blog" element={<BlogsByid />} />
           <Route path="/career" element={<Career />} />
           <Route path="/ourService" element={<VrContentDevelopment />} />
+          <Route path="/ourService/devops" element={<DevopsService />} />
+          <Route path="/ourService/xrdevelopment" element={<XrDevelopment />} />
         </Routes>
         <Footer />
       </Router>
