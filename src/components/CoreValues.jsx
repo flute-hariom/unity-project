@@ -73,7 +73,7 @@ const CoreValues = () => {
           {coreValues.map((pillar, index) => (
             <VerticalTimelineElement
               key={index}
-              contentStyle={{ background: "#c1e0ff", color: "#111827" }}
+              contentStyle={{ background: "# ", color: "#111827" }}
               contentArrowStyle={{ borderRight: "7px solid #f9fafb" }}
               iconStyle={{ background: "#6c63ff", color: "#fff" }}
               icon={

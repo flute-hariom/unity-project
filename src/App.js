@@ -16,6 +16,7 @@ import Career from "./components/career/Career";
 import NavBar from "./components/Navbar/NavBar";
 import Footer from "./components/Footer";
 import ScrollOnTop from "./components/ScrollOnTop";
+import VrContentDevelopment from "./components/individualServicePage/VrContentDevelopment";
 function App() {
   useEffect(() => {
     const aos_init = () => {
@@ -45,6 +46,7 @@ function App() {
           <Route path="/about-us" element={<AboutUsMore />} />
           <Route path="/our-blog" element={<BlogsByid />} />
           <Route path="/career" element={<Career />} />
+          <Route path="/ourService" element={<VrContentDevelopment />} />
         </Routes>
         <Footer />
       </Router>

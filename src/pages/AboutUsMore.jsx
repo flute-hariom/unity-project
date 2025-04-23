@@ -10,11 +10,10 @@ const AboutUsMore = () => {
     <>
       {/* <NavBar /> */}
       <div id="services" className=" px-4 relative pt-4">
-
-        <WhoWeAre/>
+        <WhoWeAre />
         {/* <Intro /> */}
-        <PillerData />
         <CoreValues />
+        <PillerData />
       </div>
     </>
   );

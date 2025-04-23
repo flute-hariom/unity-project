@@ -6,6 +6,7 @@ const Footer = () => {
   return (
     <>
       <footer>
+        <hr className="bg-black " />
         <div className="footer max-w-full mx-auto px-4 sm:px-6 bg-white py-30">
           {/* Top area: Blocks */}
           <div className="grid sm:grid-cols-12 gap-5 py-8 md:py-12 lg:ml-11">

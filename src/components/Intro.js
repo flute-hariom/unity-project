@@ -18,7 +18,7 @@ const Intro = () => {
           // data-aos="fade-up"
         >
           <div
-            className="flex-col my-4 lg:my-0 lg:justify-end w-full lg:w-2/3 lg:pl-24 pr-4"
+            className="flex-col my-4 lg:my-0 lg:justify-end w-full lg:w-[40%] lg:pl-24 pr-4"
             // data-aos="zoom-in"
             // data-aos-delay="500"
           >
@@ -29,7 +29,7 @@ const Intro = () => {
               {/* <span className="text-[#ff7246] "> US</span> */}
             </h1>
             <div data-aos="zoom-in" data-aos-delay="200">
-              <p className="my-6 text-lg lg:text-xl font-semibold tracking-tight mb-5 text-gray-600 fontArial">
+              <p className="my-6 text-lg lg:text-xl font-semibold tracking-tight mb-5 text-gray-600 fontArial ">
                 Our team is dedicated to bringing transformative changes to the
                 IT sector. We strive to go beyond industry standards through
                 ethical practices, vibrant culture, and innovative partnerships.
@@ -66,7 +66,7 @@ const Intro = () => {
           </div>
           {/* Right div */}
           <div
-            className="lg:w-1/2 flex flex-col lg:mx-4 justify-center"
+            className="lg:w-2/5 flex flex-col lg:mx-4 justify-center"
             // data-aos="zoom-in"
             // data-aos-delay="200"
           >

@@ -9,6 +9,7 @@ import CoreValues from "./CoreValues";
 import Training from "./Training";
 import TrustedBy from "./TrustedBy";
 import AllBlogs from "./ourBlogs/AllBlogs";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   const scrollRef = useRef(null);
@@ -74,6 +75,7 @@ const Services = () => {
                 title: "VR Content Development",
                 img: img,
                 text: "Crafting Virtual Worlds, Elevating Real Experiences.",
+                link: "/ourService",
               },
               {
                 title: "Independent Testing Services",
@@ -106,22 +108,24 @@ const Services = () => {
                 text: "Streamline, Automate, Accelerate.",
               },
             ].map((service, index) => (
-              <div
-                key={index}
-                className="bg-gray-800 transition-all ease-in-out duration-400 overflow-hidden text-white hover:text-black hover:bg-white rounded-lg shadow-xl p-6 w-[260px] md:w-[310px] flex-shrink-0"
-              >
-                <h2 className="font-semibold my-4 text-xl text-center">
-                  {service.title}
-                </h2>
-                <img
-                  alt="card img"
-                  className="rounded-t group-hover:scale-[1.1] transition duration-700 ease-in-out w-full h-56 object-cover my-5"
-                  src={service.img}
-                />
-                <p className="text-md font-medium text-center">
-                  {service.text}
-                </p>
-              </div>
+              <Link to={service.link}>
+                <div
+                  key={index}
+                  className="bg-gray-800 transition-all ease-in-out duration-400 overflow-hidden text-white hover:text-black hover:bg-white rounded-lg shadow-xl p-6 w-[260px] md:w-[310px] flex-shrink-0"
+                >
+                  <h2 className="font-semibold my-4 text-xl text-center">
+                    {service.title}
+                  </h2>
+                  <img
+                    alt="card img"
+                    className="rounded-t group-hover:scale-[1.1] transition duration-700 ease-in-out w-full h-56 object-cover my-5"
+                    src={service.img}
+                  />
+                  <p className="text-md font-medium text-center">
+                    {service.text}
+                  </p>
+                </div>
+              </Link>
             ))}
           </div>
           <button
@@ -132,10 +136,6 @@ const Services = () => {
           </button>
         </div>
 
-        {/* <Training /> */}
-
-        {/* <PillerData /> */}
-        {/* <TrustedBy /> */}
         <AllBlogs />
       </section>
     </div>
