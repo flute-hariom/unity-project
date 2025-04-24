@@ -20,6 +20,8 @@ import VrContentDevelopment from "./components/individualServicePage/VrContentDe
 import DevopsService from "./components/individualServicePage/DevopsService";
 import XrDevelopment from "./components/individualServicePage/XrDevelopment";
 import MobileAppService from "./components/individualServicePage/MobileAppService";
+import WebDevelopmentService from "./components/individualServicePage/WebDevelopmentService";
+import IndependentTestingServices from "./components/individualServicePage/IndependentTestingServices";
 function App() {
   useEffect(() => {
     const aos_init = () => {
@@ -55,6 +57,14 @@ function App() {
           <Route
             path="/ourService/mobileAppService"
             element={<MobileAppService />}
+          />
+          <Route
+            path="/ourService/webDevelopmentService"
+            element={<WebDevelopmentService />}
+          />
+          <Route
+            path="/ourService/independentTestingServices"
+            element={<IndependentTestingServices />}
           />
         </Routes>
         <Footer />

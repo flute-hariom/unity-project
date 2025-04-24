@@ -81,6 +81,7 @@ const Services = () => {
                 title: "Independent Testing Services",
                 img: img4,
                 text: "Your Product, Our Assurance.",
+                link: "/ourService/independentTestingServices",
               },
               {
                 title: "XR Development",
@@ -92,6 +93,7 @@ const Services = () => {
                 title: "Web Development",
                 img: img,
                 text: " Crafting Innovative Web Solutions",
+                link: "/ourService/webDevelopmentService",
               },
               {
                 title: "Mobile App Solutions",
