@@ -97,6 +97,7 @@ const Services = () => {
                 title: "Mobile App Solutions",
                 img: "https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169863.jpg",
                 text: "Crafting Mobile Excellence",
+                link: "/ourService/mobileAppService",
               },
               {
                 title: "Interactive Simulations",

@@ -15,8 +15,13 @@ const WhoWeAre = () => {
 
         {/* Overlay with Top-Aligned Text */}
         <div className="relative z-10 h-full bg-black/50 flex flex-col items-center pt-16 px-6 lg:px-24">
-          <h1 className="text-white text-4xl md:text-6xl lg:text-7xl font-extrabold text-center mt-24">
-            Who we are
+          <h1 className="text-white text-2xl md:text-6xl lg:text-5xl font-bold px-40 text-center mt-40">
+            Our team is dedicated to bringing transformative changes to the IT
+            sector. We strive to go beyond industry standards through ethical
+            practices, vibrant culture, and innovative partnerships. DimenXion
+            is more than a company; it's a commitment to shaping the future of
+            tech, where every ethical choice, line of code, and partnership
+            contributes to industry growth.
           </h1>
         </div>
       </div>

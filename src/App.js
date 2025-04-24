@@ -19,6 +19,7 @@ import ScrollOnTop from "./components/ScrollOnTop";
 import VrContentDevelopment from "./components/individualServicePage/VrContentDevelopment";
 import DevopsService from "./components/individualServicePage/DevopsService";
 import XrDevelopment from "./components/individualServicePage/XrDevelopment";
+import MobileAppService from "./components/individualServicePage/MobileAppService";
 function App() {
   useEffect(() => {
     const aos_init = () => {
@@ -51,6 +52,10 @@ function App() {
           <Route path="/ourService" element={<VrContentDevelopment />} />
           <Route path="/ourService/devops" element={<DevopsService />} />
           <Route path="/ourService/xrdevelopment" element={<XrDevelopment />} />
+          <Route
+            path="/ourService/mobileAppService"
+            element={<MobileAppService />}
+          />
         </Routes>
         <Footer />
       </Router>
